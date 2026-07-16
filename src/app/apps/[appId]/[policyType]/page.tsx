@@ -1,35 +1,30 @@
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import { getPolicyContent } from "@/lib/markdown";
+import { getAllApps, getAppById } from "@/lib/apps";
 
 type Props = {
   params: Promise<{ appId: string; policyType: string }>;
 };
 
-// Define static path generation for all apps & policy types
+// Generate static routes dynamically for all apps in apps.json & policy types
 export async function generateStaticParams() {
   const paths = [];
-  const apps = ["app1", "app2", "app3", "app4"];
+  const apps = getAllApps();
   const policyTypes = ["privacy", "terms"];
   
-  for (const appId of apps) {
+  for (const app of apps) {
     for (const policyType of policyTypes) {
-      paths.push({ appId, policyType });
+      paths.push({ appId: app.id, policyType });
     }
   }
   return paths;
 }
 
-const appNames: Record<string, string> = {
-  app1: "TaskFlow",
-  app2: "FitTrack",
-  app3: "SpendWise",
-  app4: "SnapEdit"
-};
-
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { appId, policyType } = await params;
-  const appName = appNames[appId] || appId;
+  const app = getAppById(appId);
+  const appName = app ? app.name : appId;
   const typeText = policyType === "privacy" ? "개인정보처리방침" : "서비스 이용약관";
 
   return {
@@ -46,7 +41,8 @@ export default async function PolicyPage({ params }: Props) {
     notFound();
   }
 
-  const appName = appNames[appId] || appId;
+  const app = getAppById(appId);
+  const appName = app ? app.name : appId;
 
   return (
     <main className="container">
