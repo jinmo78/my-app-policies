@@ -70,6 +70,7 @@
 .app2Glow { background: linear-gradient(90deg, #10b981, #3b82f6); }
 .app3Glow { background: linear-gradient(90deg, #f59e0b, #ef4444); }
 .app4Glow { background: linear-gradient(90deg, #ec4899, #8b5cf6); }
+.app5Glow { background: linear-gradient(90deg, #14b8a6, #0ea5e9); }
 
 .cardHeader {
   display: flex;
