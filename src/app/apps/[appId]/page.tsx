@@ -46,14 +46,30 @@ export default async function AppPage({ params }: Props) {
           <h1 className={styles.appName}>{app.name}</h1>
           <span className={styles.slogan}>{app.slogan}</span>
           <p className={styles.desc}>{app.desc}</p>
-          <div className={styles.downloadStore}>
-            <button className={styles.storeBtn}>
-              🍎 App Store에서 다운로드
-            </button>
-            <button className={styles.storeBtn}>
-              🤖 Google Play에서 다운로드
-            </button>
-          </div>
+          {(app.appStoreUrl || app.playStoreUrl) && (
+            <div className={styles.downloadStore}>
+              {app.appStoreUrl && (
+                <a
+                  href={app.appStoreUrl}
+                  className={styles.storeBtn}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  🍎 App Store에서 다운로드
+                </a>
+              )}
+              {app.playStoreUrl && (
+                <a
+                  href={app.playStoreUrl}
+                  className={styles.storeBtn}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  🤖 Google Play에서 다운로드
+                </a>
+              )}
+            </div>
+          )}
         </section>
 
         <section style={{ marginBottom: "5rem" }}>

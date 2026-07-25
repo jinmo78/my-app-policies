@@ -14,6 +14,8 @@ export interface AppConfig {
   desc: string;
   glowClass: string;
   features: AppFeature[];
+  appStoreUrl?: string;
+  playStoreUrl?: string;
 }
 
 const appsFilePath = path.join(process.cwd(), 'content/apps.json');
