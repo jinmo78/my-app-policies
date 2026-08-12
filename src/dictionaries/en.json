@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "title": "App Suite - Official Info & Policies",
+    "description": "Official pages, privacy policies, and terms of service for our apps — all in one place."
+  },
+  "nav": {
+    "home": "Home"
+  },
+  "footer": {
+    "brand": "We build smartphone apps that improve everyday life. Clear policies and solid security come first.",
+    "shortcuts": "Shortcuts",
+    "homeHub": "Home hub",
+    "apps": "Apps",
+    "policies": "Privacy & Terms",
+    "privacyShort": "Privacy Policy",
+    "termsShort": "Terms of Service",
+    "rights": "All rights reserved.",
+    "compliance": "All policies are written to meet current applicable requirements."
+  },
+  "home": {
+    "titleBefore": "Meet Our",
+    "titleHighlight": "Innovations",
+    "description": "Smart services that improve daily life and productivity. Open each card for details, privacy policy, and terms of service.",
+    "learnMore": "Learn more",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "app": {
+    "officialIntro": "Official overview",
+    "appStore": "Download on the App Store",
+    "playStore": "Get it on Google Play",
+    "featuresTitle": "Key features",
+    "policyTitle": "Privacy & Terms",
+    "policyDesc": "We respect user rights and take privacy seriously. Review the official documents below.",
+    "privacyBtn": "Privacy Policy",
+    "termsBtn": "Terms of Service"
+  },
+  "policy": {
+    "privacyTitle": "Privacy Policy",
+    "termsTitle": "Terms of Service",
+    "genericTitle": "Policy",
+    "back": "Back to {app} overview",
+    "officialDoc": "{app} official document",
+    "updated": "Last updated: {date}",
+    "metaDesc": "Official {type} for {app}."
+  },
+  "lang": {
+    "ko": "한국어",
+    "en": "English"
+  }
+}

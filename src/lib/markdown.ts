@@ -1,9 +1,11 @@
-import fs from 'fs';
-import path from 'path';
-import { remark } from 'remark';
-import html from 'remark-html';
+import fs from "fs";
+import path from "path";
+import { remark } from "remark";
+import html from "remark-html";
+import type { Locale } from "@/lib/i18n";
+import { getDictionary } from "@/lib/dictionary";
 
-const policiesDirectory = path.join(process.cwd(), 'content/policies');
+const policiesDirectory = path.join(process.cwd(), "content/policies");
 
 export interface PolicyData {
   title: string;
@@ -11,46 +13,40 @@ export interface PolicyData {
   updatedAt: string;
 }
 
-export async function getPolicyContent(appId: string, policyType: string): Promise<PolicyData | null> {
+export async function getPolicyContent(
+  appId: string,
+  policyType: string,
+  locale: Locale = "ko"
+): Promise<PolicyData | null> {
   const fileName = `${appId}-${policyType}.md`;
-  const fullPath = path.join(policiesDirectory, fileName);
-  
+  const localizedPath =
+    locale === "en"
+      ? path.join(policiesDirectory, "en", fileName)
+      : path.join(policiesDirectory, fileName);
+  const fallbackPath = path.join(policiesDirectory, fileName);
+  const fullPath = fs.existsSync(localizedPath) ? localizedPath : fallbackPath;
+
   if (!fs.existsSync(fullPath)) {
     return null;
   }
-  
-  try {
-    const fileContents = fs.readFileSync(fullPath, 'utf8');
-    
-    // Convert markdown to HTML
-    const processedContent = await remark()
-      .use(html)
-      .process(fileContents);
-    const contentHtml = processedContent.toString();
-    
-    // Determine policy title
-    let title = '';
-    if (policyType === 'privacy') {
-      title = '개인정보처리방침';
-    } else if (policyType === 'terms') {
-      title = '서비스 이용약관';
-    } else {
-      title = '약관';
-    }
-    
-    // Get file modification time as updated date
-    const stats = fs.statSync(fullPath);
-    const updatedAt = stats.mtime.toLocaleDateString('ko-KR', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric',
-    });
 
-    return {
-      title,
-      contentHtml,
-      updatedAt,
-    };
+  try {
+    const fileContents = fs.readFileSync(fullPath, "utf8");
+    const processedContent = await remark().use(html).process(fileContents);
+    const contentHtml = processedContent.toString();
+    const dict = getDictionary(locale);
+
+    let title = dict.policy.genericTitle;
+    if (policyType === "privacy") title = dict.policy.privacyTitle;
+    else if (policyType === "terms") title = dict.policy.termsTitle;
+
+    const stats = fs.statSync(fullPath);
+    const updatedAt = stats.mtime.toLocaleDateString(
+      locale === "en" ? "en-US" : "ko-KR",
+      { year: "numeric", month: "long", day: "numeric" }
+    );
+
+    return { title, contentHtml, updatedAt };
   } catch (error) {
     console.error(`Error reading policy file: ${fullPath}`, error);
     return null;

@@ -1,41 +1,46 @@
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import { getAllApps, getAppById } from "@/lib/apps";
+import { getDictionary } from "@/lib/dictionary";
+import { isLocale, locales, type Locale } from "@/lib/i18n";
 import styles from "./page.module.css";
 
 type Props = {
-  params: Promise<{ appId: string }>;
+  params: Promise<{ lang: string; appId: string }>;
 };
 
-// Generate static routes dynamically based on apps.json config
 export async function generateStaticParams() {
-  const apps = getAllApps();
-  return apps.map((app) => ({
-    appId: app.id,
-  }));
+  const apps = getAllApps("ko");
+  return locales.flatMap((lang) =>
+    apps.map((app) => ({
+      lang,
+      appId: app.id,
+    }))
+  );
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { appId } = await params;
-  const app = getAppById(appId);
-  if (!app) {
-    return {
-      title: "App Not Found",
-    };
-  }
+  const { lang: langParam, appId } = await params;
+  if (!isLocale(langParam)) return { title: "App Not Found" };
+  const lang = langParam as Locale;
+  const dict = getDictionary(lang);
+  const app = getAppById(appId, lang);
+  if (!app) return { title: "App Not Found" };
   return {
-    title: `${app.name} - 공식 소개`,
+    title: `${app.name} - ${dict.app.officialIntro}`,
     description: `${app.name} (${app.slogan}): ${app.desc}`,
   };
 }
 
 export default async function AppPage({ params }: Props) {
-  const { appId } = await params;
-  const app = getAppById(appId);
+  const { lang: langParam, appId } = await params;
+  if (!isLocale(langParam)) notFound();
+  const lang = langParam as Locale;
+  const dict = getDictionary(lang);
+  const app = getAppById(appId, lang);
+  const base = `/${lang}`;
 
-  if (!app) {
-    notFound();
-  }
+  if (!app) notFound();
 
   return (
     <main className="container">
@@ -55,7 +60,7 @@ export default async function AppPage({ params }: Props) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  🍎 App Store에서 다운로드
+                  🍎 {dict.app.appStore}
                 </a>
               )}
               {app.playStoreUrl && (
@@ -65,7 +70,7 @@ export default async function AppPage({ params }: Props) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  🤖 Google Play에서 다운로드
+                  🤖 {dict.app.playStore}
                 </a>
               )}
             </div>
@@ -73,7 +78,7 @@ export default async function AppPage({ params }: Props) {
         </section>
 
         <section style={{ marginBottom: "5rem" }}>
-          <h2 className={styles.sectionTitle}>핵심 기능 안내</h2>
+          <h2 className={styles.sectionTitle}>{dict.app.featuresTitle}</h2>
           <div className={styles.features}>
             {app.features.map((feature, idx) => (
               <div key={idx} className={styles.featureCard}>
@@ -85,24 +90,21 @@ export default async function AppPage({ params }: Props) {
         </section>
 
         <section className={styles.policySection}>
-          <h3>개인정보 및 이용약관</h3>
-          <p>
-            우리는 이용자의 권리를 존중하며 개인정보 보호에 최선을 다합니다. 
-            해당 서비스의 공식 약관을 확인하려면 아래 버튼을 클릭하십시오.
-          </p>
+          <h3>{dict.app.policyTitle}</h3>
+          <p>{dict.app.policyDesc}</p>
           <div className={styles.policyLinks}>
             <a
-              href={`/apps/${app.id}/privacy`}
+              href={`${base}/apps/${app.id}/privacy`}
               className={`${styles.policyBtn} ${styles.storeBtn}`}
             >
-              개인정보처리방침
+              {dict.app.privacyBtn}
             </a>
             <a
-              href={`/apps/${app.id}/terms`}
+              href={`${base}/apps/${app.id}/terms`}
               className={`${styles.policyBtn} ${styles.storeBtn}`}
               style={{ backgroundColor: "var(--primary)", borderColor: "var(--primary)" }}
             >
-              서비스 이용약관
+              {dict.app.termsBtn}
             </a>
           </div>
         </section>

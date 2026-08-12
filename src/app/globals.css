@@ -107,6 +107,40 @@ a {
   justify-content: space-between;
   align-items: center;
   height: 4.5rem;
+  gap: 1rem;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-shrink: 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.lang-btn {
+  color: var(--text-muted);
+  padding: 0.25rem 0.35rem;
+  border-radius: 6px;
+}
+
+.lang-btn:hover {
+  color: var(--text-main);
+}
+
+.lang-btn.active {
+  color: var(--accent);
+}
+
+.lang-sep {
+  color: var(--text-dim);
 }
 
 .logo {
@@ -154,6 +188,14 @@ a {
   .footer-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+
+  .header-right {
+    gap: 0.75rem;
+  }
+
+  .nav-links {
+    display: none;
   }
 }
 

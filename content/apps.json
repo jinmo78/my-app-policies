@@ -10,7 +10,17 @@
       { "title": "단계별 맞춤법 퀴즈", "desc": "기초 단계부터 심화 어휘까지 난이도별 퀴즈를 통해 체계적으로 실력을 향상시킬 수 있습니다." },
       { "title": "오답 노트 기능", "desc": "틀렸던 문제들을 별도로 모아 해설과 함께 다시 공부할 수 있는 스마트 복습 도구를 제공합니다." },
       { "title": "실시간 랭킹 시스템", "desc": "글로벌/로컬 플레이어들과 퀴즈 점수를 비교하며 경쟁 의식을 높여주는 리더보드 시스템입니다." }
-    ]
+    ],
+    "en": {
+      "name": "Korean Master",
+      "slogan": "A smart quiz game for Korean spelling and vocabulary",
+      "desc": "A fun learning quiz app for accurate Korean. Practice spelling, spacing, and standard usage through quizzes, and compete on live rankings.",
+      "features": [
+        { "title": "Level-based spelling quizzes", "desc": "Improve step by step from basics to advanced vocabulary." },
+        { "title": "Wrong-answer notes", "desc": "Review missed questions with explanations in one place." },
+        { "title": "Live rankings", "desc": "Compare scores with other players on the leaderboard." }
+      ]
+    }
   },
   {
     "id": "jeongsan-calculator",
@@ -23,7 +33,17 @@
       { "title": "지출별 차등 분배", "desc": "특정 지출 항목(예: 술자리 불참자 제외 등)에 대해 대상 멤버를 개별적으로 조절하여 합리적인 정산이 가능합니다." },
       { "title": "다중 정산 그룹 지원", "desc": "다양한 성격의 모임을 그룹별로 나누어 저장하고, 지난 내역까지 손쉽게 보관할 수 있습니다." },
       { "title": "간편한 결과 메시지 전송", "desc": "계산 완료된 멤버별 정산 요청 내역을 가독성 높은 메세지 포맷으로 만들어 클립보드에 복사하고 전송합니다." }
-    ]
+    ],
+    "en": {
+      "name": "Split Bill Calculator",
+      "slogan": "A smart split-bill tool for trips and group dinners",
+      "desc": "Split shared expenses in a few taps. Handle uneven shares and copy a clean summary to share with your group.",
+      "features": [
+        { "title": "Per-expense splitting", "desc": "Include or exclude members for each expense for fair totals." },
+        { "title": "Multiple groups", "desc": "Keep different gatherings organized and revisit past splits." },
+        { "title": "Easy share messages", "desc": "Copy a readable per-person request message to your clipboard." }
+      ]
+    }
   },
   {
     "id": "insquare",
@@ -36,7 +56,17 @@
       { "title": "함께하는 공간", "desc": "소수와 함께하는 아늑한 방. 가까운 관계만을 위한 소중한 기록을 나눌 수 있습니다." },
       { "title": "천천히 쌓이는 기록", "desc": "빠른 스크롤의 피드가 아닌, 하루에 한 장씩 정성스레 채워가는 사진 다이어리 서비스입니다." },
       { "title": "조용한 감성 필름", "desc": "정사각형 비율의 이미지 포맷과 넉넉한 백그라운드 여백으로 디지털 필름 앨범 특유의 아늑한 분위기를 연출합니다." }
-    ]
+    ],
+    "en": {
+      "name": "insquare",
+      "slogan": "A calm photo app for slow daily memories",
+      "desc": "A quiet space to share square photos with people close to you. Soft colors and generous whitespace make everyday moments feel like a film diary.",
+      "features": [
+        { "title": "Shared rooms", "desc": "Cozy rooms for a small circle — keep precious moments between close relationships." },
+        { "title": "Slow records", "desc": "Not an endless feed — fill a photo diary one thoughtful frame at a time." },
+        { "title": "Film-like mood", "desc": "Square images and soft backgrounds create a warm album feel." }
+      ]
+    }
   },
   {
     "id": "shooter-1941",
@@ -49,7 +79,17 @@
       { "title": "클래식 탄막 아케이드", "desc": "부드러운 조작감의 기체 이동, 화려한 폭탄 효과, 스테이지별 개성 넘치는 거대 보스들과 전투를 벌집니다." },
       { "title": "리더보드 스코어 경쟁", "desc": "고유 닉네임을 등록하여 전 세계 플레이어들과 실시간 점수 순위를 경쟁하고 기록을 게시합니다." },
       { "title": "다채로운 기체/파워업 아이템", "desc": "이동 속도 증가, 미사일 빔 레이저 강화, 실드 등 다양한 파워업 아이템을 습득해 화력을 업그레이드합니다." }
-    ]
+    ],
+    "en": {
+      "name": "1941 Galaxy",
+      "slogan": "A classic vertical shoot-’em-up with retro vibes",
+      "desc": "A retro 2D vertical shooter built with precise canvas physics. Dodge bullet patterns, grab power-ups, and chase the high score.",
+      "features": [
+        { "title": "Classic bullet hell", "desc": "Smooth ship control, bomb effects, and memorable stage bosses." },
+        { "title": "Leaderboard rivalry", "desc": "Register a nickname and compete on live score rankings." },
+        { "title": "Power-ups", "desc": "Speed boosts, stronger lasers, shields, and more." }
+      ]
+    }
   },
   {
     "id": "my-scrap",
@@ -65,7 +105,18 @@
       { "title": "카테고리·태그 정리", "desc": "수집한 정보를 직관적으로 분류해 한눈에 알아볼 수 있게 정리합니다." },
       { "title": "강력한 검색", "desc": "나중에 필요한 정보를 키워드로 빠르게 찾아볼 수 있습니다." },
       { "title": "군더더기 없는 UI", "desc": "불필요한 기능 없이 스크랩과 읽기에만 집중할 수 있는 가벼운 화면입니다." }
-    ]
+    ],
+    "en": {
+      "name": "My Scrap",
+      "slogan": "A lightweight scrap app so good links don’t get lost while browsing",
+      "desc": "Links dumped into chat history or bookmarks are hard to find later. My Scrap saves via Share, then organizes with categories, tags, and search — on iOS and Android.",
+      "features": [
+        { "title": "One-tap sharing", "desc": "Save links from any browser or app with the Share sheet." },
+        { "title": "Categories & tags", "desc": "Sort collected links so they’re easy to scan later." },
+        { "title": "Fast search", "desc": "Find what you need with keywords when it matters." },
+        { "title": "Clean UI", "desc": "No bloat — focused on saving and reading." }
+      ]
+    }
   },
   {
     "id": "lumi",
@@ -79,6 +130,17 @@
       { "title": "나만의 캐릭터 제작", "desc": "이름, 인사말, 페르소나, 외모를 설정해 캐릭터를 만들고 프로필 이미지를 생성할 수 있습니다." },
       { "title": "AI 외모 추천", "desc": "이름·인사·페르소나를 바탕으로 외모·연출 스타일 묘사를 추천받을 수 있습니다." },
       { "title": "계정 연동", "desc": "익명으로 바로 시작하거나 이메일 계정으로 전환해 대화를 이어갈 수 있습니다." }
-    ]
+    ],
+    "en": {
+      "name": "Lumi",
+      "slogan": "A space to chat freely with AI characters",
+      "desc": "Create AI characters with the personality you want and start chatting. Appearance suggestions, profile images, recent chats, and anonymous or email accounts are supported.",
+      "features": [
+        { "title": "Browse & chat", "desc": "Discover characters on the home feed and chat in real time." },
+        { "title": "Create your character", "desc": "Set name, greeting, persona, and look — then generate a profile image." },
+        { "title": "AI look suggestions", "desc": "Get appearance and style ideas from name, greeting, and persona." },
+        { "title": "Account options", "desc": "Start anonymously or continue with an email account." }
+      ]
+    }
   }
 ]

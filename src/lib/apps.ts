@@ -1,36 +1,70 @@
-import fs from 'fs';
-import path from 'path';
+import fs from "fs";
+import path from "path";
+import type { Locale } from "@/lib/i18n";
 
 export interface AppFeature {
   title: string;
   desc: string;
 }
 
-export interface AppConfig {
-  id: string;
+export interface AppLocaleCopy {
   name: string;
-  icon: string;
   slogan: string;
   desc: string;
+  features: AppFeature[];
+}
+
+export interface AppConfigRaw {
+  id: string;
+  icon: string;
   glowClass: string;
+  name: string;
+  slogan: string;
+  desc: string;
   features: AppFeature[];
   appStoreUrl?: string;
   playStoreUrl?: string;
+  en?: Partial<AppLocaleCopy>;
 }
 
-const appsFilePath = path.join(process.cwd(), 'content/apps.json');
+export type AppConfig = AppConfigRaw & AppLocaleCopy;
 
-export function getAllApps(): AppConfig[] {
+const appsFilePath = path.join(process.cwd(), "content/apps.json");
+
+export function getAllAppsRaw(): AppConfigRaw[] {
   try {
-    const fileContents = fs.readFileSync(appsFilePath, 'utf8');
-    return JSON.parse(fileContents) as AppConfig[];
+    const fileContents = fs.readFileSync(appsFilePath, "utf8");
+    return JSON.parse(fileContents) as AppConfigRaw[];
   } catch (error) {
-    console.error('Failed to read apps config:', error);
+    console.error("Failed to read apps config:", error);
     return [];
   }
 }
 
-export function getAppById(id: string): AppConfig | undefined {
-  const apps = getAllApps();
-  return apps.find(app => app.id === id);
+export function localizeApp(app: AppConfigRaw, locale: Locale): AppConfig {
+  if (locale === "en" && app.en) {
+    return {
+      ...app,
+      name: app.en.name ?? app.name,
+      slogan: app.en.slogan ?? app.slogan,
+      desc: app.en.desc ?? app.desc,
+      features: app.en.features ?? app.features,
+    };
+  }
+  return {
+    ...app,
+    name: app.name,
+    slogan: app.slogan,
+    desc: app.desc,
+    features: app.features,
+  };
+}
+
+export function getAllApps(locale: Locale = "ko"): AppConfig[] {
+  return getAllAppsRaw().map((app) => localizeApp(app, locale));
+}
+
+export function getAppById(id: string, locale: Locale = "ko"): AppConfig | undefined {
+  const app = getAllAppsRaw().find((item) => item.id === id);
+  return app ? localizeApp(app, locale) : undefined;
 }
