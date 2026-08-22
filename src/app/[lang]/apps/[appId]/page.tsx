@@ -89,6 +89,27 @@ export default async function AppPage({ params }: Props) {
           </div>
         </section>
 
+        {(app.operator || app.supportEmail) && (
+          <section className={styles.supportSection}>
+            <h2 className={styles.sectionTitle}>{dict.app.supportTitle}</h2>
+            <div className={styles.supportCard}>
+              {app.operator && (
+                <p>
+                  <strong>{dict.app.operatorLabel}</strong>
+                  {app.operator}
+                </p>
+              )}
+              {app.supportEmail && (
+                <p>
+                  <strong>{dict.app.emailLabel}</strong>
+                  <a href={`mailto:${app.supportEmail}`}>{app.supportEmail}</a>
+                </p>
+              )}
+              <p className={styles.supportAge}>{dict.app.ageNote}</p>
+            </div>
+          </section>
+        )}
+
         <section className={styles.policySection}>
           <h3>{dict.app.policyTitle}</h3>
           <p>{dict.app.policyDesc}</p>

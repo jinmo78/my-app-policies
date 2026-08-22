@@ -24,6 +24,8 @@ export interface AppConfigRaw {
   features: AppFeature[];
   appStoreUrl?: string;
   playStoreUrl?: string;
+  operator?: string;
+  supportEmail?: string;
   en?: Partial<AppLocaleCopy>;
 }
 

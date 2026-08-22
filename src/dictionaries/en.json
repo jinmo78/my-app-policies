@@ -33,7 +33,11 @@
     "policyTitle": "Privacy & Terms",
     "policyDesc": "We respect user rights and take privacy seriously. Review the official documents below.",
     "privacyBtn": "Privacy Policy",
-    "termsBtn": "Terms of Service"
+    "termsBtn": "Terms of Service",
+    "supportTitle": "Operator & contact",
+    "operatorLabel": "Operator",
+    "emailLabel": "Email",
+    "ageNote": "The app is for users 13 years of age or older."
   },
   "policy": {
     "privacyTitle": "Privacy Policy",

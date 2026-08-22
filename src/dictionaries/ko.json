@@ -33,7 +33,11 @@
     "policyTitle": "개인정보 및 이용약관",
     "policyDesc": "우리는 이용자의 권리를 존중하며 개인정보 보호에 최선을 다합니다. 해당 서비스의 공식 약관을 확인하려면 아래 버튼을 클릭하십시오.",
     "privacyBtn": "개인정보처리방침",
-    "termsBtn": "서비스 이용약관"
+    "termsBtn": "서비스 이용약관",
+    "supportTitle": "운영 · 문의",
+    "operatorLabel": "운영자",
+    "emailLabel": "이메일",
+    "ageNote": "만 13세 이상만 이용할 수 있습니다."
   },
   "policy": {
     "privacyTitle": "개인정보처리방침",

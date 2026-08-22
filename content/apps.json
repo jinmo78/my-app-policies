@@ -49,22 +49,26 @@
     "id": "insquare",
     "name": "insquare",
     "icon": "📸",
-    "slogan": "작은 방에서 천천히 기록하는 감성 사진 앱",
-    "desc": "가까운 사람들과 부담 없이 사진을 남기는 조용한 공간입니다. 정사각형 사진과 여백, 따뜻한 색감으로 하루하루의 소중한 일상을 다이어리처럼 조용히 기록해 보세요.",
+    "slogan": "초대한 사람들과만 나누는 프라이빗 사진 공간",
+    "desc": "INSQUARE는 공개 피드가 없는 프라이빗 사진 공간입니다. 초대한 사람들과만 방을 만들고, 지금 이 시간의 사진을 나눠 보세요. Google · Apple · 카카오로 로그인할 수 있습니다. 무료로 방을 만들고 사진을 올릴 수 있으며, 방 목록 하단에 광고가 표시될 수 있습니다. 만 13세 이상만 이용할 수 있습니다.",
     "glowClass": "app3Glow",
+    "operator": "강진모",
+    "supportEmail": "ilovejs97@gmail.com",
     "features": [
-      { "title": "함께하는 공간", "desc": "소수와 함께하는 아늑한 방. 가까운 관계만을 위한 소중한 기록을 나눌 수 있습니다." },
-      { "title": "천천히 쌓이는 기록", "desc": "빠른 스크롤의 피드가 아닌, 하루에 한 장씩 정성스레 채워가는 사진 다이어리 서비스입니다." },
-      { "title": "조용한 감성 필름", "desc": "정사각형 비율의 이미지 포맷과 넉넉한 백그라운드 여백으로 디지털 필름 앨범 특유의 아늑한 분위기를 연출합니다." }
+      { "title": "초대·QR로만 입장하는 방", "desc": "공개 피드가 없습니다. 초대 코드나 QR을 받은 사람만 방에 들어올 수 있습니다." },
+      { "title": "시간 단위로 쌓이는 기록", "desc": "끝없는 스크롤 피드가 아니라, 지금 이 시간에 올린 사진을 같은 방 멤버와 나눕니다." },
+      { "title": "댓글과 푸시", "desc": "댓글과 푸시로 조용히 이어집니다. 알림 종류는 설정에서 켤 수 있습니다." },
+      { "title": "개인이 운영하는 앱", "desc": "법인 Quartz가 아니라 개인 개발자 강진모가 운영합니다. 문의는 ilovejs97@gmail.com 입니다." }
     ],
     "en": {
       "name": "insquare",
-      "slogan": "A calm photo app for slow daily memories",
-      "desc": "A quiet space to share square photos with people close to you. Soft colors and generous whitespace make everyday moments feel like a film diary.",
+      "slogan": "A private photo space for people you invite",
+      "desc": "INSQUARE is a private photo space with no public feed. Create a room with people you invite and share photos of this hour. Sign in with Google, Apple, or Kakao. Rooms and posts are free; a banner ad may appear on the room list. The app is for ages 13 and up.",
       "features": [
-        { "title": "Shared rooms", "desc": "Cozy rooms for a small circle — keep precious moments between close relationships." },
-        { "title": "Slow records", "desc": "Not an endless feed — fill a photo diary one thoughtful frame at a time." },
-        { "title": "Film-like mood", "desc": "Square images and soft backgrounds create a warm album feel." }
+        { "title": "Invite or QR only", "desc": "No public feed. Rooms open only with an invite code or QR." },
+        { "title": "Hourly records", "desc": "Not an endless feed — share photos of the current hour with room members." },
+        { "title": "Comments and push", "desc": "Stay in touch with comments and push. Choose notification types in settings." },
+        { "title": "Independently operated", "desc": "Run by individual developer Jinmo Kang, not the Quartz company. Contact: ilovejs97@gmail.com." }
       ]
     }
   },

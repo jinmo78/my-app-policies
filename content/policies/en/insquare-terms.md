@@ -1,41 +1,82 @@
 # Terms of Service (insquare)
 
-## Chapter 1 General Provisions
+These Terms govern use of the private photo app **insquare** (the "Service") operated by **Jinmo Kang**, an individual developer (the "Operator").
 
-### Article 1 (Purpose)
-These Terms establish provisions regarding the rights, obligations, scope of liability, and copyright between Quartz, a digital records brand (hereinafter the "Company"), and users in connection with use of the square-format emotional photo diary service "insquare" (hereinafter the "Service") provided by the Company.
+- Contact: [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)
+- In-app reports and feedback: Profile → **Send feedback**
 
-### Article 2 (Definitions)
-1. "Service" means the application platform that supports photo uploads with margins and a square aspect ratio, and provides cozy sharing features among a small number of people.
-2. "Content" means all materials uploaded by users within the Service, including photo images, comments, and profiles.
+## Article 1 (Purpose)
+These Terms set out the rights, obligations, and responsibilities of the Operator and users in connection with the Service.
+
+## Article 2 (Definitions)
+1. "Service" means the insquare mobile application, a private photo space for invited people only.
+2. "Operator" means Jinmo Kang, who develops and operates the Service in an individual capacity. This is a personal app, not a product of the Quartz company or brand.
+3. "User" means a person who agrees to these Terms and uses the Service.
+4. "Room" means a private space that can be joined only with an invite code or QR code. There is no public feed.
+5. "Content" means photos, captions, comments, profile information, and other materials users upload.
+
+## Article 3 (The Service)
+The Operator provides:
+1. Sign-in with Google, Apple, or Kakao
+2. Private rooms joined only by invite code or QR
+3. Photo posts on an hourly timeline, visible to room members
+4. Comments and push notifications
+5. Ads that may appear at the bottom of the room list for free use
+
+Features and limits may change. Material changes will be announced in the app or on this page.
+
+## Article 4 (Accounts)
+1. The Service is for users **13 years of age or older**. Users under 13 may not register or use it.
+2. The Service does not create a separate ID or password. Sign-in is Google, Apple, or Kakao only.
+3. An account may stay signed in on only one device at a time. Signing in on another device ends the previous session.
+4. Users may sign out or **delete their account** in the profile menu. Account deletion removes the account and the user’s posts, comments, and photos.
+
+## Article 5 (Content rights)
+1. Users retain copyright in Content they upload.
+2. The Operator processes Content only as needed to provide the Service (storage, delivery, display, backup, security, deletion).
+3. The Operator does not use Content for advertising, marketing, or machine learning without the user’s consent.
+
+## Article 6 (User obligations)
+Users must not:
+1. Upload Content that infringes others’ portrait rights, copyrights, or personal information
+2. Post obscene, violent, hateful, or defamatory Content, or Content that violates law or public morals
+3. Create, possess, or distribute child sexual abuse and exploitation (CSAE) or child sexual abuse material (CSAM)
+4. Abuse the Service, scrape data, or interfere with other users
+5. Impersonate the Operator or spread false information
+
+The Operator may delete Content and suspend accounts. Suspected crimes may be reported to law enforcement.
+
+Liability arising from Content rests with the user who uploaded it.
+
+## Article 7 (Prohibition of CSAE)
+insquare does not allow users under 13 and prohibits **child sexual abuse and exploitation (CSAE)** and **child sexual abuse material (CSAM)**.
+
+If such Content is found, it is deleted, the account is suspended, and it is reported to law enforcement in the Republic of Korea (including the National Police Agency) as required by law.
+
+Reports: [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)  
+In the app: Profile → **Send feedback**.
+
+## Article 8 (Reports and contact)
+Users may report illegal or harmful Content, or account issues, via:
+- App: Profile → Send feedback
+- Email: [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)
+
+The Operator reviews reports and may delete Content, restrict accounts, or notify authorities.
+
+## Article 9 (Advertising)
+During free use, third-party ads (Google AdMob) may appear at the bottom of the room list. Advertisers are responsible for their ads and linked services.
+
+## Article 10 (Disclaimer)
+1. The Operator is not liable for interruptions caused by events reasonably beyond control, including natural disasters, network failures, or third-party infrastructure outages.
+2. Except for willful misconduct or gross negligence, the Operator is not liable for disputes among users or for Content a user shares outside the Service.
+3. The Service is operated by an individual. To the extent permitted by law, damages are limited to amounts the user paid the Operator (zero if none).
+
+## Article 11 (Changes)
+If these Terms change, the revision date will be posted on this page. Continued use after a change constitutes acceptance.
+
+## Article 12 (Governing law)
+These Terms are governed by the laws of the Republic of Korea. Disputes shall be resolved in courts with jurisdiction under the Civil Procedure Act.
 
 ---
-
-## Chapter 2 Copyright in Image Content and Restrictions on Use
-
-### Article 3 (Attribution of Copyright and License)
-1. Intellectual property rights and copyright in all photos and text (Content) uploaded by users to the Service belong entirely to **the user who created such Content**.
-2. The Company does not commercially use such photos without the user's prior consent for purposes such as Service promotion, marketing, or machine learning, and performs temporary storage and infrastructure processing on servers solely for the purpose of technical transmission services within private rooms created by users.
-
-### Article 4 (Infringement of Others' Rights and Legal Liability)
-1. When uploading photos of another person's body or face, users must obtain the other person's consent and **must not infringe portrait rights**.
-2. Users shall not register on the Service any works that infringe others' copyrights, such as illegally downloaded images from the Internet.
-3. If Content that infringes others' copyrights, portrait rights, or personal information is posted within the Service and a legal dispute arises, all civil and criminal liability shall be borne entirely by **the user who uploaded the Content**, and the Company assumes no joint liability whatsoever.
-4. Upon receipt of an infringement report, the Company may immediately make the relevant image private or delete it.
-
-### Article 5 (Regulation of Harmful Media)
-1. Upload of images falling under any of the following is strictly prohibited, and upon discovery the post will be deleted and permanent suspension of use will be imposed immediately:
-   - Excessively obscene or suggestive exposure photos and images that cause sexual humiliation
-   - Cruel and violent hate images and materials that encourage crime
-   - Offensive text and manipulated images intended to defame or damage the reputation of others
-
----
-
-## Chapter 3 Damages and Miscellaneous
-
-### Article 6 (Governing Law and Jurisdiction)
-Lawsuits between the Company and users shall be governed by the laws of the Republic of Korea, and disputes shall be resolved under the exclusive agreed jurisdiction of the Seoul Central District Court.
-
----
-**Addendum**
-These Terms take effect as of July 16, 2026.
+**Addendum**  
+These Terms take effect on August 22, 2026, and replace the previous Terms issued in the name of Quartz.
