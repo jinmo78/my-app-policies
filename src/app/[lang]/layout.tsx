@@ -5,6 +5,7 @@ import { getAllApps } from "@/lib/apps";
 import { getDictionary } from "@/lib/dictionary";
 import { isLocale, locales, type Locale } from "@/lib/i18n";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import FooterPolicySelect from "@/components/FooterPolicySelect";
 
 type Props = {
   children: React.ReactNode;
@@ -62,9 +63,6 @@ export default async function LangLayout({ children, params }: Props) {
         <footer className="footer">
           <div className="container">
             <div className="footer-grid">
-              <div className="footer-brand">
-                <h3>John.k</h3>
-              </div>
               <div className="footer-col">
                 <h4>{dict.footer.shortcuts}</h4>
                 <ul>
@@ -85,24 +83,13 @@ export default async function LangLayout({ children, params }: Props) {
               </div>
               <div className="footer-col">
                 <h4>{dict.footer.policies}</h4>
-                <ul>
-                  {apps.map((app) => (
-                    <li key={app.id} style={{ marginBottom: "0.5rem" }}>
-                      <a
-                        href={`${base}/apps/${app.id}/privacy`}
-                        style={{ display: "block", fontSize: "0.85rem" }}
-                      >
-                        {app.name} {dict.footer.privacyShort}
-                      </a>
-                      <a
-                        href={`${base}/apps/${app.id}/terms`}
-                        style={{ display: "block", fontSize: "0.85rem", opacity: 0.7 }}
-                      >
-                        {app.name} {dict.footer.termsShort}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
+                <FooterPolicySelect
+                  apps={apps.map((app) => ({ id: app.id, name: app.name }))}
+                  base={base}
+                  placeholder={dict.footer.policySelectPlaceholder}
+                  privacyShort={dict.footer.privacyShort}
+                  termsShort={dict.footer.termsShort}
+                />
               </div>
             </div>
             <div className="footer-bottom">

@@ -11,6 +11,7 @@
     "homeHub": "Home hub",
     "apps": "Apps",
     "policies": "Privacy & Terms",
+    "policySelectPlaceholder": "Choose a document",
     "privacyShort": "Privacy Policy",
     "termsShort": "Terms of Service",
     "rights": "All rights reserved.",

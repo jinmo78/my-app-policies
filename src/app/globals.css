@@ -179,7 +179,7 @@ a {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 3rem;
   margin-bottom: 3rem;
 }
@@ -197,11 +197,6 @@ a {
   .nav-links {
     display: none;
   }
-}
-
-.footer-brand h3 {
-  font-size: 1.25rem;
-  font-weight: 700;
 }
 
 .footer-col h4 {
@@ -229,6 +224,37 @@ a {
 .footer-col ul li a:hover {
   color: var(--text-main);
   padding-left: 4px;
+}
+
+.footer-policy-select {
+  width: 100%;
+  max-width: 16rem;
+  appearance: none;
+  background-color: var(--bg-card);
+  background-image: linear-gradient(45deg, transparent 50%, var(--text-muted) 50%),
+    linear-gradient(135deg, var(--text-muted) 50%, transparent 50%);
+  background-position: calc(100% - 1.15rem) 1.05rem, calc(100% - 0.75rem) 1.05rem;
+  background-size: 0.4rem 0.4rem, 0.4rem 0.4rem;
+  background-repeat: no-repeat;
+  color: var(--text-main);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  padding: 0.7rem 2.25rem 0.7rem 0.85rem;
+  font-size: 0.9rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.footer-policy-select:hover,
+.footer-policy-select:focus {
+  border-color: var(--border-hover);
+  outline: none;
+}
+
+.footer-policy-select option,
+.footer-policy-select optgroup {
+  background-color: var(--bg-card);
+  color: var(--text-main);
 }
 
 .footer-bottom {
