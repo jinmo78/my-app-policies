@@ -58,7 +58,7 @@
     "name": "insquare",
     "icon": "📸",
     "slogan": "초대한 사람들과만 나누는 프라이빗 사진 공간",
-    "desc": "INSQUARE는 공개 피드가 없는 프라이빗 사진 공간입니다. 초대한 사람들과 방을 만들고, 지금 시간의 사진을 나눠 보세요. Google · Apple · 카카오로 로그인할 수 있습니다. 무료로 방을 만들고 사진을 올릴 수 있으며, 방 목록 하단에 광고가 표시될 수 있습니다.",
+    "desc": "INSQUARE는 공개 피드가 없는 프라이빗 사진 공간입니다. 방을 만들고 사람들을 초대하여 사진으로 현재의 추억을 나눠 보세요. Google · Apple · 카카오로 로그인할 수 있습니다. 무료로 방을 만들고 사진을 올릴 수 있으며, 방 목록 하단에 광고가 표시될 수 있습니다.",
     "glowClass": "app3Glow",
     "operator": "John.k",
     "supportEmail": "ilovejs97@gmail.com",
@@ -70,7 +70,7 @@
     "en": {
       "name": "insquare",
       "slogan": "A private photo space for people you invite",
-      "desc": "INSQUARE is a private photo space with no public feed. Create a room with people you invite and share photos of this hour. Sign in with Google, Apple, or Kakao. Rooms and posts are free; a banner ad may appear on the room list.",
+      "desc": "INSQUARE is a private photo space with no public feed. Create a room, invite people, and share this moment in photos. Sign in with Google, Apple, or Kakao. Rooms and posts are free; a banner ad may appear on the room list.",
       "features": [
         { "title": "Invite or QR only", "desc": "No public feed. Rooms open only with an invite code or QR." },
         { "title": "Hourly records", "desc": "Not an endless feed — share photos of the current hour with room members." },

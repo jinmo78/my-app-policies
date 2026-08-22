@@ -1,6 +1,6 @@
 # Privacy Policy (insquare)
 
-**John.k** (the "Operator"), an individual developer, operates the private photo app **insquare** (the "Service") and follows applicable privacy law, including Korea’s Personal Information Protection Act.
+**John.k** (the "Operator") operates the private photo app **insquare** (the "Service") and follows applicable privacy law, including Korea’s Personal Information Protection Act.
 
 - Privacy officer: John.k
 - Access, deletion, and other requests: [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)
