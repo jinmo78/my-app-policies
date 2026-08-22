@@ -1,6 +1,6 @@
 # Terms of Service (insquare)
 
-These Terms govern use of the private photo app **insquare** (the "Service") operated by **Jinmo Kang**, an individual developer (the "Operator").
+These Terms govern use of the private photo app **insquare** (the "Service") operated by **John.k**, an individual developer (the "Operator").
 
 - Contact: [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)
 - In-app reports and feedback: Profile → **Send feedback**
@@ -10,7 +10,7 @@ These Terms set out the rights, obligations, and responsibilities of the Operato
 
 ## Article 2 (Definitions)
 1. "Service" means the insquare mobile application, a private photo space for invited people only.
-2. "Operator" means Jinmo Kang, who develops and operates the Service in an individual capacity. This is a personal app, not a product of the Quartz company or brand.
+2. "Operator" means John.k, who develops and operates the Service in an individual capacity. This is a personal app, not a product of the Quartz company or brand.
 3. "User" means a person who agrees to these Terms and uses the Service.
 4. "Room" means a private space that can be joined only with an invite code or QR code. There is no public feed.
 5. "Content" means photos, captions, comments, profile information, and other materials users upload.

@@ -12,6 +12,7 @@ export interface AppLocaleCopy {
   slogan: string;
   desc: string;
   features: AppFeature[];
+  ageNote?: string;
 }
 
 export interface AppConfigRaw {
@@ -26,6 +27,7 @@ export interface AppConfigRaw {
   playStoreUrl?: string;
   operator?: string;
   supportEmail?: string;
+  ageNote?: string;
   en?: Partial<AppLocaleCopy>;
 }
 
@@ -51,6 +53,7 @@ export function localizeApp(app: AppConfigRaw, locale: Locale): AppConfig {
       slogan: app.en.slogan ?? app.slogan,
       desc: app.en.desc ?? app.desc,
       features: app.en.features ?? app.features,
+      ageNote: app.en.ageNote ?? app.ageNote,
     };
   }
   return {

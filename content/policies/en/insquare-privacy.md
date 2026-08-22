@@ -1,10 +1,10 @@
 # Privacy Policy (insquare)
 
-**Jinmo Kang** (the "Operator"), an individual developer, operates the private photo app **insquare** (the "Service") and follows applicable privacy law, including Korea’s Personal Information Protection Act.
+**John.k** (the "Operator"), an individual developer, operates the private photo app **insquare** (the "Service") and follows applicable privacy law, including Korea’s Personal Information Protection Act.
 
 This is a **personal app**, not a Quartz company or brand product.
 
-- Privacy officer: Jinmo Kang
+- Privacy officer: John.k
 - Access, deletion, and other requests: [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)
 - In-app contact: Profile → **Send feedback**
 
@@ -102,7 +102,7 @@ Reasonable measures such as HTTPS are used. Internet transmission and storage ca
 Material changes are posted on this page with the revision date.
 
 ## 12. Contact
-- Privacy officer: Jinmo Kang
+- Privacy officer: John.k
 - Email: [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)
 
 This Policy takes effect on August 22, 2026, and replaces the previous Policy issued in the name of Quartz.

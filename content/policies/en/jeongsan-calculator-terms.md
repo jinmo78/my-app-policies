@@ -1,40 +1,33 @@
-# Terms of Service (Jeongsan Calculator)
+# Terms of Service (Split Bill Calculator)
 
-## Chapter 1 General Provisions
+These Terms govern the gathering split-bill web app **Split Bill Calculator**, operated by **John.k**. This is not a Quartz company product.
 
-### Article 1 (Purpose)
-These Terms set forth in detail the rights, obligations, responsibilities, and disclaimers between Quartz, a digital records brand (hereinafter the "Company"), and users in connection with use of the web and mobile-based settlement support tool "Jeongsan Calculator" (hereinafter the "Service") provided by the Company.
+- Contact: [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)
 
-### Article 2 (Definitions)
-1. "Service" means the utility web application provided by the Company that enables users to enter expense records and participating members and obtain equal (N-way) or differential allocation calculation results.
-2. "Settlement Data" means all information entered by users for settlement, including gathering information, amounts, account holder names, and account numbers.
+## Article 1 (Purpose)
+Conditions for this personal app.
 
----
+## Article 2 (The Service)
+1. Sign up and sign in with email and password. Only the latest signed-in device may stay active.
+2. Create gatherings and split expenses. Invite others by code or email.
+3. Save display names and bank account aliases, holders, and numbers. Copy results to share in chat.
+4. **The Service does not send money.** It only calculates shares. Check amounts and accounts before any transfer.
 
-## Chapter 2 Service Provision and Limitation of Liability (Key Notice)
+## Article 3 (Data)
+Settlement and account data are stored on a **server (Supabase)** with the user account. This is not browser-only storage.
 
-### Article 3 (Limitation of Liability for Calculation Results)
-1. This Service is a **simple auxiliary utility** that calculates split billing amounts based on source data entered by users and mathematical arithmetic formulas.
-2. The Company **assumes no legal liability whatsoever** for miscalculation results arising from exchange rate fluctuation errors, browser script execution errors, or users' careless input errors (typos, misentries), or for any resulting financial losses or settlement disputes among users.
-3. Users have an obligation to re-verify that result amounts and account information are accurate before executing actual remittances based on settlement results.
+## Article 4 (User duties)
+Do not register someone else’s account without permission, or induce transfers with false splits.
 
-### Article 4 (Disclaimer for Local Data Loss)
-1. Default settlement records stored in the Service are recorded in the user's browser local web storage (LocalStorage), not on a server.
-2. The Company has no obligation whatsoever to recover settlement data lost because a user forcibly deletes cache (temporary files) through browser settings, uses private/incognito browsing, or loses or changes a device.
-3. Users are clearly notified in advance that if they use only local storage without activating a cloud backup account, data will not be automatically transferred when changing devices.
+## Article 5 (Disclaimer)
+Except for willful misconduct or gross negligence, the Operator is not liable for input errors, disputes among users, or information shared in external messengers.
 
----
+## Article 6 (Accounts)
+Sign-out is available in the app. Email [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com) to delete an account and related data.
 
-## Chapter 3 Obligations of the Contracting Parties and Disclaimer
-
-### Article 5 (Obligations of Users)
-1. Users shall not, outside of normal settlement use, misappropriate others' financial information (account numbers, account holder names) or distribute malicious settlement links to induce fraudulent remittances to others.
-2. If a user disrupts the settlement system's calculation infrastructure through abnormal script execution or by causing network load, use of the Service may be permanently restricted and legal penalties may apply.
-
-### Article 6 (Governing Law and Jurisdiction)
-1. Disputes between the Company and users relating to use of the Service and these Terms shall be governed by the laws of the Republic of Korea.
-2. Lawsuits arising in connection with use of this Service shall be subject to the jurisdiction of the court having jurisdiction over the location of the Company's head office (Seoul Central District Court).
+## Article 7 (Governing law)
+Laws of the Republic of Korea.
 
 ---
-**Addendum**
-These Terms take effect as of July 16, 2026.
+**Addendum**  
+Effective August 22, 2026. Replaces prior Terms issued in the name of Quartz.

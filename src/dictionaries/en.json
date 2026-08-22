@@ -1,13 +1,13 @@
 {
   "meta": {
-    "title": "App Suite - Official Info & Policies",
-    "description": "Official pages, privacy policies, and terms of service for our apps — all in one place."
+    "title": "John.k - Apps & Policies",
+    "description": "Overviews, privacy policies, and terms for apps by individual developer John.k."
   },
   "nav": {
     "home": "Home"
   },
   "footer": {
-    "brand": "We build smartphone apps that improve everyday life. Clear policies and solid security come first.",
+    "brand": "Apps by individual developer John.k. Clear overviews and policies, in one place.",
     "shortcuts": "Shortcuts",
     "homeHub": "Home hub",
     "apps": "Apps",
@@ -20,7 +20,7 @@
   "home": {
     "titleBefore": "Meet Our",
     "titleHighlight": "Innovations",
-    "description": "Smart services that improve daily life and productivity. Open each card for details, privacy policy, and terms of service.",
+    "description": "Apps by individual developer John.k. Open a card for details, privacy policy, and terms.",
     "learnMore": "Learn more",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service"

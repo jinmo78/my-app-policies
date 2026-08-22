@@ -3,22 +3,26 @@
     "id": "woorimal-dalin",
     "name": "우리말 달인",
     "icon": "📝",
-    "slogan": "한글 맞춤법과 어휘력을 키우는 스마트 퀴즈 게임",
-    "desc": "정확한 우리말 사용을 위한 재미있는 학습 퀴즈 앱입니다. 헷갈리기 쉬운 맞춤법, 띄어쓰기, 표준어 규정을 퀴즈를 풀며 쉽고 재미있게 학습하고 실시간 랭킹 시스템을 통해 실력을 겨루어 보세요.",
+    "slogan": "실시간으로 겨루는 우리말 퀴즈",
+    "desc": "맞춤법·어휘를 부저 퀴즈로 겨루는 게임입니다. 혼자 연습하거나, 초대 코드로 친구와 하거나, 실시간 대전에 참여할 수 있습니다. 익명으로 바로 플레이하거나 Google 로그인을 연결하면 기록을 이어갈 수 있습니다. 개인 개발자 John.k가 운영합니다.",
     "glowClass": "app1Glow",
+    "operator": "John.k",
+    "supportEmail": "ilovejs97@gmail.com",
+    "ageNote": "만 14세 미만의 개인정보는 의도적으로 수집하지 않습니다.",
     "features": [
-      { "title": "단계별 맞춤법 퀴즈", "desc": "기초 단계부터 심화 어휘까지 난이도별 퀴즈를 통해 체계적으로 실력을 향상시킬 수 있습니다." },
-      { "title": "오답 노트 기능", "desc": "틀렸던 문제들을 별도로 모아 해설과 함께 다시 공부할 수 있는 스마트 복습 도구를 제공합니다." },
-      { "title": "실시간 랭킹 시스템", "desc": "글로벌/로컬 플레이어들과 퀴즈 점수를 비교하며 경쟁 의식을 높여주는 리더보드 시스템입니다." }
+      { "title": "실시간 부저 퀴즈", "desc": "서버가 선착순을 판정합니다. 같은 방에서 우리말 문제를 겨룹니다." },
+      { "title": "솔로 · 친구 · 대전", "desc": "혼자 연습, 초대 코드로 친구와 플레이, 실시간 대전을 고를 수 있습니다. 솔로 기록은 랭킹에 넣지 않습니다." },
+      { "title": "닉네임 랭킹", "desc": "실시간·친구 모드 점수는 닉네임 랭킹에 쌓입니다. Google 연결 시 기기 변경 후에도 이어갈 수 있습니다." }
     ],
     "en": {
       "name": "Korean Master",
-      "slogan": "A smart quiz game for Korean spelling and vocabulary",
-      "desc": "A fun learning quiz app for accurate Korean. Practice spelling, spacing, and standard usage through quizzes, and compete on live rankings.",
+      "slogan": "A live Korean quiz you play against others",
+      "desc": "A buzzer quiz on spelling and vocabulary. Play solo, with friends via invite code, or in live matches. Start anonymously, or link Google to keep your record. Operated by individual developer John.k.",
+      "ageNote": "We do not knowingly collect personal information from children under 14.",
       "features": [
-        { "title": "Level-based spelling quizzes", "desc": "Improve step by step from basics to advanced vocabulary." },
-        { "title": "Wrong-answer notes", "desc": "Review missed questions with explanations in one place." },
-        { "title": "Live rankings", "desc": "Compare scores with other players on the leaderboard." }
+        { "title": "Live buzzer quiz", "desc": "The server decides who buzzed first. Play Korean questions in a shared room." },
+        { "title": "Solo, friends, live", "desc": "Practice alone, invite friends, or join live matches. Solo scores are not ranked." },
+        { "title": "Nickname rankings", "desc": "Live and friends-mode scores accumulate. Linking Google keeps progress across devices." }
       ]
     }
   },
@@ -26,22 +30,26 @@
     "id": "jeongsan-calculator",
     "name": "정산 계산기",
     "icon": "💰",
-    "slogan": "모임과 여행 총무를 위한 똑똑한 N분의 1 정산 툴",
-    "desc": "여러 명이 모인 여행이나 회식에서 발생한 다양한 지출 내역을 터치 몇 번으로 손쉽게 더치페이 정산해 줍니다. 복잡한 금액 분배와 카카오톡 결과 공유 기능까지 한 번에 처리하세요.",
+    "slogan": "모임 지출을 나눠 계산하고 계좌로 안내하는 정산 도구",
+    "desc": "이메일로 가입한 뒤 모임을 만들고, 지출을 나눠 계산합니다. 이름·계좌를 저장해 두고 초대 코드로 참가자를 부를 수 있습니다. 데이터는 계정에 연결되어 서버에 저장됩니다. 송금 자체는 하지 않는 계산 도구이며, 개인 개발자 John.k가 운영합니다.",
     "glowClass": "app2Glow",
+    "operator": "John.k",
+    "supportEmail": "ilovejs97@gmail.com",
+    "ageNote": "계좌 정보를 다루므로 만 14세 이상 이용을 권장합니다.",
     "features": [
-      { "title": "지출별 차등 분배", "desc": "특정 지출 항목(예: 술자리 불참자 제외 등)에 대해 대상 멤버를 개별적으로 조절하여 합리적인 정산이 가능합니다." },
-      { "title": "다중 정산 그룹 지원", "desc": "다양한 성격의 모임을 그룹별로 나누어 저장하고, 지난 내역까지 손쉽게 보관할 수 있습니다." },
-      { "title": "간편한 결과 메시지 전송", "desc": "계산 완료된 멤버별 정산 요청 내역을 가독성 높은 메세지 포맷으로 만들어 클립보드에 복사하고 전송합니다." }
+      { "title": "모임별 정산", "desc": "만든 모임과 참여 중인 모임을 나누어 보고, 지출을 항목별로 나눕니다." },
+      { "title": "계좌 저장", "desc": "별칭·예금주·계좌번호를 여러 개 두고, 사용 중인 계좌를 정산에 불러옵니다." },
+      { "title": "초대 코드 공유", "desc": "코드를 만들어 카카오톡 등에 붙여 넣으면, 상대가 로그인 후 바로 참가할 수 있습니다." }
     ],
     "en": {
       "name": "Split Bill Calculator",
-      "slogan": "A smart split-bill tool for trips and group dinners",
-      "desc": "Split shared expenses in a few taps. Handle uneven shares and copy a clean summary to share with your group.",
+      "slogan": "Split group expenses and share account details",
+      "desc": "Sign in with email, create a gathering, and split costs. Save names and bank accounts, then invite others with a code. Data is stored on the server with your account. The app calculates shares; it does not send money. Operated by John.k.",
+      "ageNote": "Because bank account details are stored, use by ages 14 and up is recommended.",
       "features": [
-        { "title": "Per-expense splitting", "desc": "Include or exclude members for each expense for fair totals." },
-        { "title": "Multiple groups", "desc": "Keep different gatherings organized and revisit past splits." },
-        { "title": "Easy share messages", "desc": "Copy a readable per-person request message to your clipboard." }
+        { "title": "Per-gathering splits", "desc": "See gatherings you own or joined, and split expenses item by item." },
+        { "title": "Saved accounts", "desc": "Store nicknames, holders, and account numbers, then attach the active one to a split." },
+        { "title": "Invite codes", "desc": "Share a code in chat. After sign-in, others can join right away." }
       ]
     }
   },
@@ -50,25 +58,27 @@
     "name": "insquare",
     "icon": "📸",
     "slogan": "초대한 사람들과만 나누는 프라이빗 사진 공간",
-    "desc": "INSQUARE는 공개 피드가 없는 프라이빗 사진 공간입니다. 초대한 사람들과만 방을 만들고, 지금 이 시간의 사진을 나눠 보세요. Google · Apple · 카카오로 로그인할 수 있습니다. 무료로 방을 만들고 사진을 올릴 수 있으며, 방 목록 하단에 광고가 표시될 수 있습니다. 만 13세 이상만 이용할 수 있습니다.",
+    "desc": "INSQUARE는 공개 피드가 없는 프라이빗 사진 공간입니다. 초대한 사람들과만 방을 만들고, 지금 이 시간의 사진을 나눠 보세요. Google · Apple · 카카오로 로그인할 수 있습니다. 무료로 방을 만들고 사진을 올릴 수 있으며, 방 목록 하단에 광고가 표시될 수 있습니다. 개인 개발자 John.k가 운영합니다.",
     "glowClass": "app3Glow",
-    "operator": "강진모",
+    "operator": "John.k",
     "supportEmail": "ilovejs97@gmail.com",
+    "ageNote": "만 13세 이상만 이용할 수 있습니다.",
     "features": [
       { "title": "초대·QR로만 입장하는 방", "desc": "공개 피드가 없습니다. 초대 코드나 QR을 받은 사람만 방에 들어올 수 있습니다." },
       { "title": "시간 단위로 쌓이는 기록", "desc": "끝없는 스크롤 피드가 아니라, 지금 이 시간에 올린 사진을 같은 방 멤버와 나눕니다." },
       { "title": "댓글과 푸시", "desc": "댓글과 푸시로 조용히 이어집니다. 알림 종류는 설정에서 켤 수 있습니다." },
-      { "title": "개인이 운영하는 앱", "desc": "법인 Quartz가 아니라 개인 개발자 강진모가 운영합니다. 문의는 ilovejs97@gmail.com 입니다." }
+      { "title": "개인이 운영하는 앱", "desc": "법인 Quartz가 아니라 개인 개발자 John.k가 운영합니다. 문의는 ilovejs97@gmail.com 입니다." }
     ],
     "en": {
       "name": "insquare",
       "slogan": "A private photo space for people you invite",
-      "desc": "INSQUARE is a private photo space with no public feed. Create a room with people you invite and share photos of this hour. Sign in with Google, Apple, or Kakao. Rooms and posts are free; a banner ad may appear on the room list. The app is for ages 13 and up.",
+      "desc": "INSQUARE is a private photo space with no public feed. Create a room with people you invite and share photos of this hour. Sign in with Google, Apple, or Kakao. Rooms and posts are free; a banner ad may appear on the room list. Operated by John.k. Ages 13 and up.",
+      "ageNote": "The app is for users 13 years of age or older.",
       "features": [
         { "title": "Invite or QR only", "desc": "No public feed. Rooms open only with an invite code or QR." },
         { "title": "Hourly records", "desc": "Not an endless feed — share photos of the current hour with room members." },
         { "title": "Comments and push", "desc": "Stay in touch with comments and push. Choose notification types in settings." },
-        { "title": "Independently operated", "desc": "Run by individual developer Jinmo Kang, not the Quartz company. Contact: ilovejs97@gmail.com." }
+        { "title": "Independently operated", "desc": "Run by individual developer John.k, not the Quartz company. Contact: ilovejs97@gmail.com." }
       ]
     }
   },
@@ -76,22 +86,26 @@
     "id": "shooter-1941",
     "name": "1941 Galaxy",
     "icon": "✈️",
-    "slogan": "레트로 감성 그대로 즐기는 클래식 비행 슈팅 아케이드",
-    "desc": "정밀한 자바스크립트 물리 캔버스로 구현된 레트로 스타일의 종스크롤 2D 비행 슈팅 게임입니다. 몰려오는 적의 탄막을 피하고 아이템을 획득하여 최고 스코어에 도전해 보세요.",
+    "slogan": "한 손으로 즐기는 종스크롤 슈팅",
+    "desc": "프롭 전투기로 탄막을 피하고 보스를 격파하는 캐주얼 슈팅 게임입니다. 최고 점수는 기기에 저장됩니다. 온라인 회원 가입이나 실시간 글로벌 랭킹 서버는 쓰지 않습니다. 개인 개발자 John.k가 운영합니다.",
     "glowClass": "app4Glow",
+    "operator": "John.k",
+    "supportEmail": "ilovejs97@gmail.com",
+    "ageNote": "캐주얼 슈팅 게임입니다. 특정 연령만을 대상으로 하지 않습니다.",
     "features": [
-      { "title": "클래식 탄막 아케이드", "desc": "부드러운 조작감의 기체 이동, 화려한 폭탄 효과, 스테이지별 개성 넘치는 거대 보스들과 전투를 벌집니다." },
-      { "title": "리더보드 스코어 경쟁", "desc": "고유 닉네임을 등록하여 전 세계 플레이어들과 실시간 점수 순위를 경쟁하고 기록을 게시합니다." },
-      { "title": "다채로운 기체/파워업 아이템", "desc": "이동 속도 증가, 미사일 빔 레이저 강화, 실드 등 다양한 파워업 아이템을 습득해 화력을 업그레이드합니다." }
+      { "title": "자동 발사 슈팅", "desc": "드래그 또는 방향키로 이동하고 발사는 자동입니다. 폭탄·윙맨·파워업으로 화력을 올립니다." },
+      { "title": "난이도별 하이스코어", "desc": "쉬움·보통·어려움 최고 점수는 기기 안에 저장됩니다." },
+      { "title": "캠페인·협동", "desc": "스테이지 진행과 협동 플레이 모드를 제공합니다. 계정 없이 바로 플레이합니다." }
     ],
     "en": {
       "name": "1941 Galaxy",
-      "slogan": "A classic vertical shoot-’em-up with retro vibes",
-      "desc": "A retro 2D vertical shooter built with precise canvas physics. Dodge bullet patterns, grab power-ups, and chase the high score.",
+      "slogan": "A one-handed vertical shooter",
+      "desc": "Dodge bullets in a prop fighter and take down bosses. High scores stay on the device. There is no account or live global leaderboard. Operated by John.k.",
+      "ageNote": "A casual shooter. Not limited to a specific age group.",
       "features": [
-        { "title": "Classic bullet hell", "desc": "Smooth ship control, bomb effects, and memorable stage bosses." },
-        { "title": "Leaderboard rivalry", "desc": "Register a nickname and compete on live score rankings." },
-        { "title": "Power-ups", "desc": "Speed boosts, stronger lasers, shields, and more." }
+        { "title": "Auto-fire shooting", "desc": "Drag or use keys to move. Firing is automatic. Bombs, wingmen, and power-ups boost firepower." },
+        { "title": "Local high scores", "desc": "Easy, normal, and hard best scores are stored on the device." },
+        { "title": "Campaign and co-op", "desc": "Stage progress and co-op modes. Play without an account." }
       ]
     }
   },
@@ -99,26 +113,30 @@
     "id": "my-scrap",
     "name": "나의 스크랩",
     "icon": "📌",
-    "slogan": "웹서핑하다 좋은 정보, 놓치지 말고 깔끔하게 모아 두는 가벼운 스크랩 앱",
-    "desc": "카톡 나와의 채팅방이나 북마크에 링크를 쌓아 두다 보면, 나중에 찾기 어렵고 만료되거나 묻혀 버리기 쉽습니다. 나의 스크랩은 공유하기 한 번으로 링크를 저장하고, 카테고리·태그·검색으로 필요할 때 바로 꺼내 수 있는 군더더기 없는 스크랩 앱입니다. iOS·Android 모두 이용할 수 있습니다.",
+    "slogan": "웹에서 본 좋은 정보, 기기 안에만 모아 두는 스크랩 앱",
+    "desc": "유튜브·블로그·기사 링크를 폴더로 정리하고, 검색·즐겨찾기로 다시 찾습니다. 데이터는 서버가 아니라 기기의 SQLite에만 저장됩니다. 공유하기(Android)와 온디바이스 OCR, 앱 안 웹뷰를 지원합니다. 배너·종료 광고가 표시될 수 있습니다. 개인 개발자 John.k가 운영합니다.",
     "glowClass": "app5Glow",
+    "operator": "John.k",
+    "supportEmail": "ilovejs97@gmail.com",
+    "ageNote": "특정 연령만을 대상으로 하지 않습니다.",
     "appStoreUrl": "https://apps.apple.com/kr/app/%EB%82%98%EC%9D%98-%EC%8A%A4%ED%81%AC%EB%9E%A9/id6793531420",
     "playStoreUrl": "https://play.google.com/store/apps/details?id=com.jinmo.myscrap&hl=ko",
     "features": [
-      { "title": "쉬운 공유 스크랩", "desc": "웹브라우저나 다른 앱에서 ‘공유하기’ 한 번으로 링크를 빠르게 저장합니다." },
-      { "title": "카테고리·태그 정리", "desc": "수집한 정보를 직관적으로 분류해 한눈에 알아볼 수 있게 정리합니다." },
-      { "title": "강력한 검색", "desc": "나중에 필요한 정보를 키워드로 빠르게 찾아볼 수 있습니다." },
-      { "title": "군더더기 없는 UI", "desc": "불필요한 기능 없이 스크랩과 읽기에만 집중할 수 있는 가벼운 화면입니다." }
+      { "title": "공유로 저장", "desc": "다른 앱에서 공유하기 한 번으로 링크를 담습니다. (Android)" },
+      { "title": "폴더·검색", "desc": "폴더로 나누고, 제목·주소·메모·폴더 이름으로 찾습니다. 즐겨찾기와 최근 목록이 있습니다." },
+      { "title": "온디바이스 OCR", "desc": "사진 속 글자를 기기 안에서 읽어 메모로 저장합니다. 클라우드 AI로 보내지 않습니다." },
+      { "title": "로컬만 보관", "desc": "계정 없이 SQLite에만 저장합니다. 앱을 삭제하면 데이터도 함께 지워집니다." }
     ],
     "en": {
       "name": "My Scrap",
-      "slogan": "A lightweight scrap app so good links don’t get lost while browsing",
-      "desc": "Links dumped into chat history or bookmarks are hard to find later. My Scrap saves via Share, then organizes with categories, tags, and search — on iOS and Android.",
+      "slogan": "Save good links on the device — not in the cloud",
+      "desc": "Keep YouTube, blog, and article links in folders, then search or star them. Data stays in on-device SQLite, not on a server. Android Share, on-device OCR, and an in-app web view are included. Banner and exit ads may appear. Operated by John.k.",
+      "ageNote": "Not limited to a specific age group.",
       "features": [
-        { "title": "One-tap sharing", "desc": "Save links from any browser or app with the Share sheet." },
-        { "title": "Categories & tags", "desc": "Sort collected links so they’re easy to scan later." },
-        { "title": "Fast search", "desc": "Find what you need with keywords when it matters." },
-        { "title": "Clean UI", "desc": "No bloat — focused on saving and reading." }
+        { "title": "Save via Share", "desc": "Add a link from another app with Share (Android)." },
+        { "title": "Folders and search", "desc": "Organize in folders. Search titles, URLs, notes, and folder names. Favorites and recents included." },
+        { "title": "On-device OCR", "desc": "Read text from photos on the device. Nothing is sent to a cloud AI." },
+        { "title": "Local only", "desc": "No account. Data lives in SQLite. Uninstalling the app deletes it." }
       ]
     }
   },
@@ -126,24 +144,28 @@
     "id": "lumi",
     "name": "루미",
     "icon": "✨",
-    "slogan": "AI 캐릭터와 자유롭게 대화하는 공간",
-    "desc": "원하는 성격의 AI 캐릭터를 만들고 바로 대화할 수 있는 앱입니다. 외모 추천·프로필 이미지 생성, 최근 대화 이어하기, 익명 또는 이메일 계정 연동을 지원합니다.",
+    "slogan": "AI 캐릭터와 이야기를 이어가는 공간",
+    "desc": "이야기 장면을 고르고 자유 채팅이나 에피소드로 이어 씁니다. 익명으로 둘러보거나 카카오·Google·Apple·이메일로 로그인할 수 있습니다. 가상의 창작 인물만 다루며, 대화 한도는 광고(불빛)로 이어갈 수 있습니다. 개인 개발자 John.k가 운영합니다.",
     "glowClass": "app6Glow",
+    "operator": "John.k",
+    "supportEmail": "ilovejs97@gmail.com",
+    "ageNote": "만 13세 이상만 이용할 수 있습니다.",
     "features": [
-      { "title": "캐릭터 탐색·대화", "desc": "홈 피드에서 캐릭터를 찾고, AI와 실시간으로 대화를 이어갈 수 있습니다." },
-      { "title": "나만의 캐릭터 제작", "desc": "이름, 인사말, 페르소나, 외모를 설정해 캐릭터를 만들고 프로필 이미지를 생성할 수 있습니다." },
-      { "title": "AI 외모 추천", "desc": "이름·인사·페르소나를 바탕으로 외모·연출 스타일 묘사를 추천받을 수 있습니다." },
-      { "title": "계정 연동", "desc": "익명으로 바로 시작하거나 이메일 계정으로 전환해 대화를 이어갈 수 있습니다." }
+      { "title": "이야기·자유 채팅", "desc": "분위기로 장면을 찾고, AI 캐릭터와 실시간으로 대화를 이어 갑니다." },
+      { "title": "에피소드·스튜디오", "desc": "화별로 열리는 스토리와, 로그인 후 가상 캐릭터를 만드는 스튜디오를 제공합니다." },
+      { "title": "여러 로그인", "desc": "익명 둘러보기 또는 카카오·Google·Apple·이메일 로그인을 지원합니다." },
+      { "title": "불빛 광고", "desc": "일일 대화 한도를 광고로 이어갈 수 있습니다. 배너·전면·보상 광고가 표시될 수 있습니다." }
     ],
     "en": {
       "name": "Lumi",
-      "slogan": "A space to chat freely with AI characters",
-      "desc": "Create AI characters with the personality you want and start chatting. Appearance suggestions, profile images, recent chats, and anonymous or email accounts are supported.",
+      "slogan": "A space to continue stories with AI characters",
+      "desc": "Pick a scene and continue in free chat or episodes. Browse anonymously or sign in with Kakao, Google, Apple, or email. Only fictional original characters. Daily chat limits can be extended with ads (Lights). Operated by John.k. Ages 13 and up.",
+      "ageNote": "The app is for users 13 years of age or older.",
       "features": [
-        { "title": "Browse & chat", "desc": "Discover characters on the home feed and chat in real time." },
-        { "title": "Create your character", "desc": "Set name, greeting, persona, and look — then generate a profile image." },
-        { "title": "AI look suggestions", "desc": "Get appearance and style ideas from name, greeting, and persona." },
-        { "title": "Account options", "desc": "Start anonymously or continue with an email account." }
+        { "title": "Stories and free chat", "desc": "Find scenes by mood and chat with AI characters in real time." },
+        { "title": "Episodes and Studio", "desc": "Follow episode beats, or create original characters in Studio after sign-in." },
+        { "title": "Sign-in options", "desc": "Browse anonymously, or use Kakao, Google, Apple, or email." },
+        { "title": "Lights ads", "desc": "Extend the daily chat limit with ads. Banner, interstitial, and rewarded ads may appear." }
       ]
     }
   }

@@ -39,7 +39,7 @@ export default async function LangLayout({ children, params }: Props) {
         <header className="header">
           <div className="container header-container">
             <a href={base} className="logo">
-              <span>🚀</span> App Suite
+              <span>🚀</span> John.k
             </a>
             <div className="header-right">
               <nav className="nav-links">
@@ -63,7 +63,7 @@ export default async function LangLayout({ children, params }: Props) {
           <div className="container">
             <div className="footer-grid">
               <div className="footer-brand">
-                <h3>App Suite</h3>
+                <h3>John.k</h3>
                 <p>{dict.footer.brand}</p>
               </div>
               <div className="footer-col">
@@ -107,7 +107,7 @@ export default async function LangLayout({ children, params }: Props) {
               </div>
             </div>
             <div className="footer-bottom">
-              <p>&copy; 2026 App Suite. {dict.footer.rights}</p>
+              <p>&copy; 2026 John.k. {dict.footer.rights}</p>
               <p>{dict.footer.compliance}</p>
             </div>
           </div>

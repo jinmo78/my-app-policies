@@ -105,7 +105,9 @@ export default async function AppPage({ params }: Props) {
                   <a href={`mailto:${app.supportEmail}`}>{app.supportEmail}</a>
                 </p>
               )}
-              <p className={styles.supportAge}>{dict.app.ageNote}</p>
+              {app.ageNote && (
+                <p className={styles.supportAge}>{app.ageNote}</p>
+              )}
             </div>
           </section>
         )}
