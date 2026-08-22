@@ -1,6 +1,6 @@
 # Privacy Policy (My Scrap)
 
-Individual developer **John.k** operates **My Scrap**. Scraps stay on this device.
+**John.k** operates **My Scrap**. Scraps stay on this device.
 
 - Contact: [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)
 
@@ -13,7 +13,7 @@ The following may be stored **only on this device**:
 No name, email, phone, location, or account is collected.
 
 ## 2. Purposes
-Organizing and searching scraps, reading text from photos, opening saved pages, backup and restore on this device.
+Organizing and searching scraps, reading text from photos, opening saved pages, and backup and restore on this device (from a file the user saves).
 
 ## 3. Advertising
 Google ads may appear on the home screen and when leaving the app. Google may process an advertising identifier, network address, and ad taps or views. See [Google’s Privacy Policy](https://policies.google.com/privacy). Scrap content is not sent out for ads.
@@ -26,7 +26,7 @@ Scraps are not sent to the operator’s servers or to external AI. Text is read 
 - Camera/photos: reading text, saving to the album when the user chooses
 
 ## 6. Retention
-Data stays in the app’s storage on this device. Uninstalling the app or deleting items removes it.
+Data stays in the app’s storage on this device. Uninstalling the app or deleting items removes it. Backup files created in the menu stay on the user’s device and are not sent to the operator’s servers.
 
 ## 7. Children
 Not limited to a specific age. No knowing collection of children’s personal information.

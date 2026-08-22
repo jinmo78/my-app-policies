@@ -5,13 +5,14 @@ These Terms govern **My Scrap**, operated by **John.k**.
 - Contact: [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)
 
 ## Article 1 (Purpose)
-Conditions for using this personal app.
+Conditions for using this app.
 
 ## Article 2 (The Service)
 1. Links, notes, and folders are stored **only on this device**. There is no account or operator server.
 2. On Android, Share from other apps can save a link.
 3. Saved addresses can be opened in the app, and text can be read from photos on this device.
-4. Google ads may appear on the home screen and when leaving the app.
+4. From the menu, scraps can be backed up as a file on this device and restored from that file. Restore replaces current data.
+5. Google ads may appear on the home screen and when leaving the app.
 
 ## Article 3 (Data)
 Uninstalling the app or clearing storage can delete scraps. The Operator has no cloud restore duty. Local backup files are the user’s responsibility.
