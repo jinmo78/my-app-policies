@@ -79,7 +79,6 @@ export default async function LangLayout({ children, params }: Props) {
             </div>
             <div className="footer-bottom">
               <p>&copy; 2026 John.k. {dict.footer.rights}</p>
-              <p>{dict.footer.compliance}</p>
             </div>
           </div>
         </footer>
