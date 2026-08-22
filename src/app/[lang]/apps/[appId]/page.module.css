@@ -116,6 +116,8 @@
   font-size: 0.95rem;
   color: var(--text-muted);
   line-height: 1.6;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 .supportSection {
