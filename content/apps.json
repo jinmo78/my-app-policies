@@ -57,24 +57,27 @@
     "id": "insquare",
     "name": "insquare",
     "icon": "📸",
-    "slogan": "초대한 사람들과만 나누는 프라이빗 사진 공간",
-    "desc": "INSQUARE는 공개 피드가 없는 프라이빗 사진 공간입니다. 방을 만들고 사람들을 초대하여 사진으로 현재의 추억을 나눠 보세요. Google · Apple · 카카오로 로그인할 수 있습니다. 무료로 방을 만들고 사진을 올릴 수 있으며, 방 목록 하단에 광고가 표시될 수 있습니다.",
+    "slogan": "초대한 사람들과만 나누는 지금 이 시간의 사진",
+    "desc": "INSQUARE는 공개 피드가 없는 프라이빗 사진 공간입니다. 방을 만들고 초대 코드나 QR로만 사람을 부릅니다. 방마다 최대 4명, 지금 이 시간에 사진 한 장을 같은 멤버와 나눕니다. Google · Apple · 카카오로 로그인하며, 새로 올린 사진은 로그인한 앱에서만 받을 수 있습니다. 무료로 이용할 수 있고 방 목록 아래에 광고가 나올 수 있습니다.",
     "glowClass": "app3Glow",
     "operator": "John.k",
     "supportEmail": "ilovejs97@gmail.com",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.quartz.insquare",
+    "ageNote": "만 13세 이상만 이용할 수 있습니다.",
     "features": [
-      { "title": "초대·QR로만 입장하는 방", "desc": "공개 피드가 없습니다. 초대 코드나 QR을 받은 사람만 방에 들어올 수 있습니다." },
-      { "title": "시간 단위로 쌓이는 기록", "desc": "끝없는 스크롤 피드가 아니라, 지금 이 시간에 올린 사진을 같은 방 멤버와 나눕니다." },
-      { "title": "댓글과 푸시", "desc": "댓글과 푸시로 조용히 이어집니다. 알림 종류는 설정에서 켤 수 있습니다." }
+      { "title": "초대·QR로만 입장", "desc": "검색되는 공개 피드가 없습니다. 코드를 아는 사람만 방에 들어옵니다. 한 방은 최대 4명입니다." },
+      { "title": "지금 이 시간의 한 장", "desc": "끝없는 스크롤이 아니라, 정각마다 바뀌는 시간에 사진 한 장을 올립니다. 지난 기록은 방 안에서만 봅니다." },
+      { "title": "댓글·알림·나가기", "desc": "댓글과 푸시로 이어집니다. 알림 종류는 설정에서 고릅니다. 방은 본인이 나가거나 방장이 지울 수 있습니다." }
     ],
     "en": {
       "name": "insquare",
-      "slogan": "A private photo space for people you invite",
-      "desc": "INSQUARE is a private photo space with no public feed. Create a room, invite people, and share this moment in photos. Sign in with Google, Apple, or Kakao. Rooms and posts are free; a banner ad may appear on the room list.",
+      "slogan": "This hour’s photos, only with people you invite",
+      "desc": "INSQUARE is a private photo space with no public feed. Create a room and invite only with a code or QR. Up to four people per room share one photo for the current hour. Sign in with Google, Apple, or Kakao. New photos download only in the signed-in app. Use is free; a banner may appear on the room list.",
+      "ageNote": "For ages 13 and up.",
       "features": [
-        { "title": "Invite or QR only", "desc": "No public feed. Rooms open only with an invite code or QR." },
-        { "title": "Hourly records", "desc": "Not an endless feed — share photos of the current hour with room members." },
-        { "title": "Comments and push", "desc": "Stay in touch with comments and push. Choose notification types in settings." }
+        { "title": "Invite or QR only", "desc": "No searchable public feed. A room holds at most four people." },
+        { "title": "One photo this hour", "desc": "Not an endless feed. Post one photo per hour. Past posts stay inside the room." },
+        { "title": "Comments, alerts, leave", "desc": "Comments and push, with types you choose. Leave a room yourself, or the owner can delete it." }
       ]
     }
   },
