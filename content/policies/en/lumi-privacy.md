@@ -1,6 +1,6 @@
 # Privacy Policy (Lumi)
 
-Individual developer **John.k** operates the AI character chat app **Lumi**.
+**John.k** operates the AI character chat app **Lumi**.
 
 - Privacy officer: John.k
 - Contact and deletion: [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)

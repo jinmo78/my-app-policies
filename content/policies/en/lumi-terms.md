@@ -1,6 +1,6 @@
 # Terms of Service (Lumi)
 
-These Terms govern the AI character chat app **Lumi**, operated by individual developer **John.k** (the "Operator").
+These Terms govern the AI character chat app **Lumi**, operated by **John.k** (the "Operator").
 
 - Contact: [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)
 

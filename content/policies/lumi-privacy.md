@@ -1,6 +1,6 @@
 # 개인정보처리방침 (루미)
 
-개인 개발자 **John.k**가 AI 캐릭터 대화 앱 **루미**를 운영합니다.
+**John.k**가 AI 캐릭터 대화 앱 **루미**를 운영합니다.
 
 - 보호책임자: John.k
 - 문의·삭제 요청: [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)

@@ -141,11 +141,10 @@
     "name": "루미",
     "icon": "✨",
     "slogan": "AI 캐릭터와 이야기를 이어가는 공간",
-    "desc": "이야기 장면을 고르고 자유 채팅이나 에피소드로 이어 씁니다. 익명으로 둘러보거나 카카오·Google·Apple·이메일로 로그인할 수 있습니다. 가상의 창작 인물만 다루며, 대화 한도는 광고(불빛)로 이어갈 수 있습니다. 개인 개발자 John.k가 운영합니다.",
+    "desc": "이야기 장면을 고르고 자유 채팅이나 에피소드로 이어 씁니다. 익명으로 둘러보거나 카카오·Google·Apple·이메일로 로그인할 수 있습니다. 가상의 창작 인물만 다루며, 대화 한도는 광고(불빛)로 이어갈 수 있습니다.",
     "glowClass": "app6Glow",
     "operator": "John.k",
     "supportEmail": "ilovejs97@gmail.com",
-    "ageNote": "만 13세 이상만 이용할 수 있습니다.",
     "features": [
       { "title": "이야기·자유 채팅", "desc": "분위기로 장면을 찾고, AI 캐릭터와 실시간으로 대화를 이어 갑니다." },
       { "title": "에피소드·스튜디오", "desc": "화별로 열리는 스토리와, 로그인 후 가상 캐릭터를 만드는 스튜디오를 제공합니다." },
@@ -155,8 +154,7 @@
     "en": {
       "name": "Lumi",
       "slogan": "A space to continue stories with AI characters",
-      "desc": "Pick a scene and continue in free chat or episodes. Browse anonymously or sign in with Kakao, Google, Apple, or email. Only fictional original characters. Daily chat limits can be extended with ads (Lights). Operated by John.k. Ages 13 and up.",
-      "ageNote": "The app is for users 13 years of age or older.",
+      "desc": "Pick a scene and continue in free chat or episodes. Browse anonymously or sign in with Kakao, Google, Apple, or email. Only fictional original characters. Daily chat limits can be extended with ads (Lights).",
       "features": [
         { "title": "Stories and free chat", "desc": "Find scenes by mood and chat with AI characters in real time." },
         { "title": "Episodes and Studio", "desc": "Follow episode beats, or create original characters in Studio after sign-in." },
