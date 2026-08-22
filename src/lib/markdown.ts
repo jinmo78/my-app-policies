@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import { remark } from "remark";
 import html from "remark-html";
+import remarkGfm from "remark-gfm";
 import type { Locale } from "@/lib/i18n";
 import { getDictionary } from "@/lib/dictionary";
 
@@ -32,7 +33,7 @@ export async function getPolicyContent(
 
   try {
     const fileContents = fs.readFileSync(fullPath, "utf8");
-    const processedContent = await remark().use(html).process(fileContents);
+    const processedContent = await remark().use(remarkGfm).use(html).process(fileContents);
     const contentHtml = processedContent.toString();
     const dict = getDictionary(locale);
 

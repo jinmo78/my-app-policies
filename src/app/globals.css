@@ -322,6 +322,40 @@ a {
   font-style: italic;
 }
 
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 1.5rem;
+  font-size: 0.95rem;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+}
+
+.prose thead th {
+  text-align: left;
+  color: var(--text-main);
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.04);
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.prose td {
+  padding: 0.7rem 1rem;
+  border-top: 1px solid var(--border-color);
+  color: var(--text-muted);
+}
+
+.prose tbody tr:first-child td {
+  border-top: none;
+}
+
+.prose td:first-child {
+  color: var(--text-main);
+  font-weight: 500;
+}
+
 .policy-meta {
   display: flex;
   justify-content: space-between;
