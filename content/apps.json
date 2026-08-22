@@ -62,23 +62,19 @@
     "glowClass": "app3Glow",
     "operator": "John.k",
     "supportEmail": "ilovejs97@gmail.com",
-    "ageNote": "만 13세 이상만 이용할 수 있습니다.",
     "features": [
       { "title": "초대·QR로만 입장하는 방", "desc": "공개 피드가 없습니다. 초대 코드나 QR을 받은 사람만 방에 들어올 수 있습니다." },
       { "title": "시간 단위로 쌓이는 기록", "desc": "끝없는 스크롤 피드가 아니라, 지금 이 시간에 올린 사진을 같은 방 멤버와 나눕니다." },
-      { "title": "댓글과 푸시", "desc": "댓글과 푸시로 조용히 이어집니다. 알림 종류는 설정에서 켤 수 있습니다." },
-      { "title": "개인이 운영하는 앱", "desc": "개인 개발자 John.k가 운영합니다. 문의는 ilovejs97@gmail.com 입니다." }
+      { "title": "댓글과 푸시", "desc": "댓글과 푸시로 조용히 이어집니다. 알림 종류는 설정에서 켤 수 있습니다." }
     ],
     "en": {
       "name": "insquare",
       "slogan": "A private photo space for people you invite",
-      "desc": "INSQUARE is a private photo space with no public feed. Create a room with people you invite and share photos of this hour. Sign in with Google, Apple, or Kakao. Rooms and posts are free; a banner ad may appear on the room list. Operated by John.k. Ages 13 and up.",
-      "ageNote": "The app is for users 13 years of age or older.",
+      "desc": "INSQUARE is a private photo space with no public feed. Create a room with people you invite and share photos of this hour. Sign in with Google, Apple, or Kakao. Rooms and posts are free; a banner ad may appear on the room list. Operated by John.k.",
       "features": [
         { "title": "Invite or QR only", "desc": "No public feed. Rooms open only with an invite code or QR." },
         { "title": "Hourly records", "desc": "Not an endless feed — share photos of the current hour with room members." },
-        { "title": "Comments and push", "desc": "Stay in touch with comments and push. Choose notification types in settings." },
-        { "title": "Independently operated", "desc": "Operated by individual developer John.k. Contact: ilovejs97@gmail.com." }
+        { "title": "Comments and push", "desc": "Stay in touch with comments and push. Choose notification types in settings." }
       ]
     }
   },
