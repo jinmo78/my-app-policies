@@ -67,7 +67,7 @@
       { "title": "초대·QR로만 입장하는 방", "desc": "공개 피드가 없습니다. 초대 코드나 QR을 받은 사람만 방에 들어올 수 있습니다." },
       { "title": "시간 단위로 쌓이는 기록", "desc": "끝없는 스크롤 피드가 아니라, 지금 이 시간에 올린 사진을 같은 방 멤버와 나눕니다." },
       { "title": "댓글과 푸시", "desc": "댓글과 푸시로 조용히 이어집니다. 알림 종류는 설정에서 켤 수 있습니다." },
-      { "title": "개인이 운영하는 앱", "desc": "법인 Quartz가 아니라 개인 개발자 John.k가 운영합니다. 문의는 ilovejs97@gmail.com 입니다." }
+      { "title": "개인이 운영하는 앱", "desc": "개인 개발자 John.k가 운영합니다. 문의는 ilovejs97@gmail.com 입니다." }
     ],
     "en": {
       "name": "insquare",
@@ -78,7 +78,7 @@
         { "title": "Invite or QR only", "desc": "No public feed. Rooms open only with an invite code or QR." },
         { "title": "Hourly records", "desc": "Not an endless feed — share photos of the current hour with room members." },
         { "title": "Comments and push", "desc": "Stay in touch with comments and push. Choose notification types in settings." },
-        { "title": "Independently operated", "desc": "Run by individual developer John.k, not the Quartz company. Contact: ilovejs97@gmail.com." }
+        { "title": "Independently operated", "desc": "Operated by individual developer John.k. Contact: ilovejs97@gmail.com." }
       ]
     }
   },
@@ -114,7 +114,7 @@
     "name": "나의 스크랩",
     "icon": "📌",
     "slogan": "웹에서 본 좋은 정보, 기기 안에만 모아 두는 스크랩 앱",
-    "desc": "유튜브·블로그·기사 링크를 폴더로 정리하고, 검색·즐겨찾기로 다시 찾습니다. 데이터는 서버가 아니라 기기의 SQLite에만 저장됩니다. 공유하기(Android)와 온디바이스 OCR, 앱 안 웹뷰를 지원합니다. 배너·종료 광고가 표시될 수 있습니다. 개인 개발자 John.k가 운영합니다.",
+    "desc": "유튜브·블로그·기사 링크를 폴더로 정리하고, 검색·즐겨찾기로 다시 찾습니다. 데이터는 서버가 아니라 이 기기에만 저장됩니다. 다른 앱에서 공유하기로 담을 수 있고, 사진 속 글자를 기기 안에서 읽거나 앱 안에서 웹페이지를 열 수 있습니다. 화면 아래나 종료 시 광고가 나올 수 있습니다. 개인 개발자 John.k가 운영합니다.",
     "glowClass": "app5Glow",
     "operator": "John.k",
     "supportEmail": "ilovejs97@gmail.com",
@@ -124,19 +124,19 @@
     "features": [
       { "title": "공유로 저장", "desc": "다른 앱에서 공유하기 한 번으로 링크를 담습니다. (Android)" },
       { "title": "폴더·검색", "desc": "폴더로 나누고, 제목·주소·메모·폴더 이름으로 찾습니다. 즐겨찾기와 최근 목록이 있습니다." },
-      { "title": "온디바이스 OCR", "desc": "사진 속 글자를 기기 안에서 읽어 메모로 저장합니다. 클라우드 AI로 보내지 않습니다." },
-      { "title": "로컬만 보관", "desc": "계정 없이 SQLite에만 저장합니다. 앱을 삭제하면 데이터도 함께 지워집니다." }
+      { "title": "사진에서 글자 읽기", "desc": "사진 속 글자를 이 기기 안에서 읽어 메모로 저장합니다. 인터넷으로 보내지 않습니다." },
+      { "title": "이 기기에만 보관", "desc": "계정 없이 이 폰에만 저장합니다. 앱을 삭제하면 스크랩도 함께 지워집니다." }
     ],
     "en": {
       "name": "My Scrap",
       "slogan": "Save good links on the device — not in the cloud",
-      "desc": "Keep YouTube, blog, and article links in folders, then search or star them. Data stays in on-device SQLite, not on a server. Android Share, on-device OCR, and an in-app web view are included. Banner and exit ads may appear. Operated by John.k.",
+      "desc": "Keep YouTube, blog, and article links in folders, then search or star them. Data stays on this device, not on a server. Save via Android Share, read text from photos on the device, and open pages in the app. Ads may appear on the home screen or when you leave. Operated by John.k.",
       "ageNote": "Not limited to a specific age group.",
       "features": [
         { "title": "Save via Share", "desc": "Add a link from another app with Share (Android)." },
         { "title": "Folders and search", "desc": "Organize in folders. Search titles, URLs, notes, and folder names. Favorites and recents included." },
-        { "title": "On-device OCR", "desc": "Read text from photos on the device. Nothing is sent to a cloud AI." },
-        { "title": "Local only", "desc": "No account. Data lives in SQLite. Uninstalling the app deletes it." }
+        { "title": "Read text from photos", "desc": "Read text from photos on this device and save it as a note. Nothing is sent over the internet for that." },
+        { "title": "On this device only", "desc": "No account. Data stays on the phone. Uninstalling the app deletes it." }
       ]
     }
   },
@@ -154,7 +154,7 @@
       { "title": "이야기·자유 채팅", "desc": "분위기로 장면을 찾고, AI 캐릭터와 실시간으로 대화를 이어 갑니다." },
       { "title": "에피소드·스튜디오", "desc": "화별로 열리는 스토리와, 로그인 후 가상 캐릭터를 만드는 스튜디오를 제공합니다." },
       { "title": "여러 로그인", "desc": "익명 둘러보기 또는 카카오·Google·Apple·이메일 로그인을 지원합니다." },
-      { "title": "불빛 광고", "desc": "일일 대화 한도를 광고로 이어갈 수 있습니다. 배너·전면·보상 광고가 표시될 수 있습니다." }
+      { "title": "불빛 광고", "desc": "일일 대화 한도를 광고로 이어갈 수 있습니다. 화면 아래나 중간에 광고가 나올 수 있습니다." }
     ],
     "en": {
       "name": "Lumi",
@@ -165,7 +165,7 @@
         { "title": "Stories and free chat", "desc": "Find scenes by mood and chat with AI characters in real time." },
         { "title": "Episodes and Studio", "desc": "Follow episode beats, or create original characters in Studio after sign-in." },
         { "title": "Sign-in options", "desc": "Browse anonymously, or use Kakao, Google, Apple, or email." },
-        { "title": "Lights ads", "desc": "Extend the daily chat limit with ads. Banner, interstitial, and rewarded ads may appear." }
+        { "title": "Lights ads", "desc": "Extend the daily chat limit with ads. Ads may appear at the bottom of the screen or in the middle of use." }
       ]
     }
   }

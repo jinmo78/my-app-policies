@@ -10,7 +10,7 @@ These Terms set out the rights, obligations, and responsibilities of the Operato
 
 ## Article 2 (Definitions)
 1. "Service" means the insquare mobile application, a private photo space for invited people only.
-2. "Operator" means John.k, who develops and operates the Service in an individual capacity. This is a personal app, not a product of the Quartz company or brand.
+2. "Operator" means John.k, who develops and operates the Service in an individual capacity.
 3. "User" means a person who agrees to these Terms and uses the Service.
 4. "Room" means a private space that can be joined only with an invite code or QR code. There is no public feed.
 5. "Content" means photos, captions, comments, profile information, and other materials users upload.
@@ -64,7 +64,7 @@ Users may report illegal or harmful Content, or account issues, via:
 The Operator reviews reports and may delete Content, restrict accounts, or notify authorities.
 
 ## Article 9 (Advertising)
-During free use, third-party ads (Google AdMob) may appear at the bottom of the room list. Advertisers are responsible for their ads and linked services.
+During free use, Google ads may appear at the bottom of the room list. Advertisers are responsible for their ads and linked services.
 
 ## Article 10 (Disclaimer)
 1. The Operator is not liable for interruptions caused by events reasonably beyond control, including natural disasters, network failures, or third-party infrastructure outages.
@@ -79,4 +79,4 @@ These Terms are governed by the laws of the Republic of Korea. Disputes shall be
 
 ---
 **Addendum**  
-These Terms take effect on August 22, 2026, and replace the previous Terms issued in the name of Quartz.
+These Terms take effect on August 22, 2026.

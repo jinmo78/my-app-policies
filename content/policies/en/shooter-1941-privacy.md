@@ -1,6 +1,6 @@
 # Privacy Policy (1941 Galaxy)
 
-Individual developer **John.k** operates **1941 Galaxy**. This is not a Quartz company product.
+Individual developer **John.k** operates **1941 Galaxy**.
 
 - Contact: [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)
 
@@ -9,7 +9,7 @@ No sign-up.
 - **On device**: high scores per difficulty, campaign progress, and other save data
 - No nickname, email, or IP is sent to a ranking server. There is no online leaderboard.
 
-No ad SDK is wired in today. If ads are added, this Policy will be updated.
+No ads are shown today. If ads are added, this Policy will be updated.
 
 ## 2. Purposes
 Loading high scores and progress on the device.

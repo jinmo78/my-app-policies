@@ -1,6 +1,6 @@
 # Terms of Service (1941 Galaxy)
 
-These Terms govern the vertical shooter **1941 Galaxy**, operated by **John.k**. This is not a Quartz company product.
+These Terms govern the vertical shooter **1941 Galaxy**, operated by **John.k**.
 
 - Contact: [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)
 
@@ -24,4 +24,4 @@ Laws of the Republic of Korea.
 
 ---
 **Addendum**  
-Effective August 22, 2026. Replaces prior Terms issued in the name of Quartz.
+Effective August 22, 2026.

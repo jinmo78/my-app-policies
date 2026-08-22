@@ -1,6 +1,6 @@
 # Terms of Service (Lumi)
 
-These Terms govern the AI character chat app **Lumi**, operated by individual developer **John.k** (the "Operator"). This is not a Quartz company product.
+These Terms govern the AI character chat app **Lumi**, operated by individual developer **John.k** (the "Operator").
 
 - Contact: [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)
 
@@ -10,7 +10,7 @@ These Terms set rights and duties between the Operator and users.
 ## Article 2 (The Service)
 1. Scene discovery, free chat, episodes, official characters, and Studio (original characters after sign-in)
 2. Anonymous browsing, or Kakao, Google, Apple, or email-and-password sign-in
-3. **Lights** (extend daily chat limits with ads), plus banner, interstitial, and rewarded ads
+3. **Lights** (extend daily chat limits with ads). Ads may appear at the bottom of the screen or in the middle of use
 4. Push notifications the user allows (including proactive messages)
 
 AI replies are for entertainment. Accuracy is not guaranteed.
@@ -28,7 +28,7 @@ AI replies are for entertainment. Accuracy is not guaranteed.
 4. Harmful content for minors, infringement, abuse, and abnormal traffic are prohibited.
 
 ## Article 5 (Ads)
-Google AdMob ads may appear. Rewarded ads can extend the daily chat limit. Denying iOS tracking still allows core features.
+Google ads may appear. Watching an ad can extend the daily chat limit. Denying tracking on iPhone still allows core features.
 
 ## Article 6 (Disclaimer)
 Liability is limited as allowed by law for outages of AI or cloud providers, networks, and AI-generated Content.
@@ -38,4 +38,4 @@ Laws of the Republic of Korea. Courts with jurisdiction under the Civil Procedur
 
 ---
 **Addendum**  
-Effective August 22, 2026. Replaces prior Terms issued in the name of Quartz.
+Effective August 22, 2026.

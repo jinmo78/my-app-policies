@@ -1,6 +1,6 @@
 # Terms of Service (Split Bill Calculator)
 
-These Terms govern the gathering split-bill web app **Split Bill Calculator**, operated by **John.k**. This is not a Quartz company product.
+These Terms govern the gathering split-bill web app **Split Bill Calculator**, operated by **John.k**.
 
 - Contact: [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)
 
@@ -14,7 +14,7 @@ Conditions for this personal app.
 4. **The Service does not send money.** It only calculates shares. Check amounts and accounts before any transfer.
 
 ## Article 3 (Data)
-Settlement and account data are stored on a **server (Supabase)** with the user account. This is not browser-only storage.
+Settlement and account data are stored in the **cloud** with the user account. They do not stay on this device only.
 
 ## Article 4 (User duties)
 Do not register someone else’s account without permission, or induce transfers with false splits.
@@ -30,4 +30,4 @@ Laws of the Republic of Korea.
 
 ---
 **Addendum**  
-Effective August 22, 2026. Replaces prior Terms issued in the name of Quartz.
+Effective August 22, 2026.
