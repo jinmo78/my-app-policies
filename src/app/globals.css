@@ -170,26 +170,7 @@ a {
   color: var(--text-main);
 }
 
-.footer {
-  border-top: 1px solid var(--border-color);
-  padding: 4rem 0 2rem;
-  margin-top: auto;
-  background-color: rgba(9, 11, 17, 0.8);
-}
-
-.footer-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 3rem;
-  margin-bottom: 3rem;
-}
-
 @media (max-width: 768px) {
-  .footer-grid {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-
   .header-right {
     gap: 0.75rem;
   }
@@ -199,7 +180,19 @@ a {
   }
 }
 
-.footer-col h4 {
+.footer {
+  border-top: 1px solid var(--border-color);
+  padding: 4rem 0 2rem;
+  margin-top: auto;
+  background-color: rgba(9, 11, 17, 0.8);
+}
+
+.footer-apps {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.footer-apps h4 {
   font-size: 0.95rem;
   font-weight: 600;
   margin-bottom: 1.25rem;
@@ -208,53 +201,31 @@ a {
   color: var(--text-main);
 }
 
-.footer-col ul {
-  list-style: none;
+.footer-app-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.85rem;
 }
 
-.footer-col ul li {
-  margin-bottom: 0.75rem;
-}
-
-.footer-col ul li a {
-  color: var(--text-muted);
-  font-size: 0.9rem;
-}
-
-.footer-col ul li a:hover {
-  color: var(--text-main);
-  padding-left: 4px;
-}
-
-.footer-policy-select {
-  width: 100%;
-  max-width: 16rem;
-  appearance: none;
-  background-color: var(--bg-card);
-  background-image: linear-gradient(45deg, transparent 50%, var(--text-muted) 50%),
-    linear-gradient(135deg, var(--text-muted) 50%, transparent 50%);
-  background-position: calc(100% - 1.15rem) 1.05rem, calc(100% - 0.75rem) 1.05rem;
-  background-size: 0.4rem 0.4rem, 0.4rem 0.4rem;
-  background-repeat: no-repeat;
-  color: var(--text-main);
+.footer-app-icon {
+  width: 3.25rem;
+  height: 3.25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  background: rgba(255, 255, 255, 0.03);
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-sm);
-  padding: 0.7rem 2.25rem 0.7rem 0.85rem;
-  font-size: 0.9rem;
-  font-family: inherit;
-  cursor: pointer;
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: var(--transition-smooth);
 }
 
-.footer-policy-select:hover,
-.footer-policy-select:focus {
+.footer-app-icon:hover {
+  background: rgba(255, 255, 255, 0.08);
   border-color: var(--border-hover);
-  outline: none;
-}
-
-.footer-policy-select option,
-.footer-policy-select optgroup {
-  background-color: var(--bg-card);
-  color: var(--text-main);
+  box-shadow: 0 0 15px var(--primary-glow);
 }
 
 .footer-bottom {

@@ -7,13 +7,7 @@
     "home": "Home"
   },
   "footer": {
-    "shortcuts": "Shortcuts",
-    "homeHub": "Home hub",
     "apps": "Apps",
-    "policies": "Privacy & Terms",
-    "policySelectPlaceholder": "Choose a document",
-    "privacyShort": "Privacy Policy",
-    "termsShort": "Terms of Service",
     "rights": "All rights reserved.",
     "compliance": "All policies are written to meet current applicable requirements."
   },

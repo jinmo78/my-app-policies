@@ -5,7 +5,6 @@ import { getAllApps } from "@/lib/apps";
 import { getDictionary } from "@/lib/dictionary";
 import { isLocale, locales, type Locale } from "@/lib/i18n";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
-import FooterPolicySelect from "@/components/FooterPolicySelect";
 
 type Props = {
   children: React.ReactNode;
@@ -62,35 +61,21 @@ export default async function LangLayout({ children, params }: Props) {
 
         <footer className="footer">
           <div className="container">
-            <div className="footer-grid">
-              <div className="footer-col">
-                <h4>{dict.footer.shortcuts}</h4>
-                <ul>
-                  <li>
-                    <a href={base}>{dict.footer.homeHub}</a>
-                  </li>
-                </ul>
-              </div>
-              <div className="footer-col">
-                <h4>{dict.footer.apps}</h4>
-                <ul>
-                  {apps.map((app) => (
-                    <li key={app.id}>
-                      <a href={`${base}/apps/${app.id}`}>{app.name}</a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="footer-col">
-                <h4>{dict.footer.policies}</h4>
-                <FooterPolicySelect
-                  apps={apps.map((app) => ({ id: app.id, name: app.name }))}
-                  base={base}
-                  placeholder={dict.footer.policySelectPlaceholder}
-                  privacyShort={dict.footer.privacyShort}
-                  termsShort={dict.footer.termsShort}
-                />
-              </div>
+            <div className="footer-apps">
+              <h4>{dict.footer.apps}</h4>
+              <nav className="footer-app-icons" aria-label={dict.footer.apps}>
+                {apps.map((app) => (
+                  <a
+                    key={app.id}
+                    href={`${base}/apps/${app.id}`}
+                    className="footer-app-icon"
+                    title={app.name}
+                    aria-label={app.name}
+                  >
+                    <span aria-hidden="true">{app.icon}</span>
+                  </a>
+                ))}
+              </nav>
             </div>
             <div className="footer-bottom">
               <p>&copy; 2026 John.k. {dict.footer.rights}</p>
