@@ -64,7 +64,6 @@ export default async function LangLayout({ children, params }: Props) {
             <div className="footer-grid">
               <div className="footer-brand">
                 <h3>John.k</h3>
-                <p>{dict.footer.brand}</p>
               </div>
               <div className="footer-col">
                 <h4>{dict.footer.shortcuts}</h4>

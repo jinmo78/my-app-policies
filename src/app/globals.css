@@ -202,13 +202,6 @@ a {
 .footer-brand h3 {
   font-size: 1.25rem;
   font-weight: 700;
-  margin-bottom: 1rem;
-}
-
-.footer-brand p {
-  color: var(--text-muted);
-  font-size: 0.9rem;
-  line-height: 1.6;
 }
 
 .footer-col h4 {
