@@ -66,10 +66,17 @@ export function localizeApp(app: AppConfigRaw, locale: Locale): AppConfig {
   };
 }
 
+const releasedOrder = ["my-scrap", "lumi", "insquare"];
+
 export function getAllApps(locale: Locale = "ko"): AppConfig[] {
   return getAllAppsRaw()
     .map((app) => localizeApp(app, locale))
-    .sort((a, b) => Number(!!b.released) - Number(!!a.released));
+    .sort((a, b) => {
+      const releasedDiff = Number(!!b.released) - Number(!!a.released);
+      if (releasedDiff !== 0) return releasedDiff;
+      if (!a.released) return 0;
+      return releasedOrder.indexOf(a.id) - releasedOrder.indexOf(b.id);
+    });
 }
 
 export function getAppById(id: string, locale: Locale = "ko"): AppConfig | undefined {
