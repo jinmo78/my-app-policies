@@ -49,9 +49,8 @@ The Operator does not sell photos or use them in ads. Work is entrusted as follo
 | Apple Inc. | Sign in with Apple |
 | Kakao Corp. | Kakao sign-in |
 | Cloudflare, Inc. | Storage and delivery of new photo files (R2 and Worker). A sign-in token is required to download. |
-| Cloudinary, Inc. | Storage and delivery of some older photos. Those files may be reachable by URL. |
 
-Photos are shown to members of rooms the user joins. They are not given to others for ads or marketing. They are not disclosed otherwise except as required by law.
+Photos are shown to members of rooms the user joins. Voice talk is not provided. They are not given to others for ads or marketing. They are not disclosed otherwise except as required by law.
 
 The Operator cannot always prevent someone from seeing a shared screen, or a member from saving or capturing a photo on their own device.
 
