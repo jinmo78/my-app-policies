@@ -1,6 +1,6 @@
-# Privacy Policy (insquare)
+# Privacy Policy (INSQUARE)
 
-**John.k** (the "Operator") operates the private photo app **insquare** (the "Service") and follows applicable privacy law, including Korea’s Personal Information Protection Act.
+**John.k** (the "Operator") operates the private photo app **INSQUARE** (the "Service") and follows applicable privacy law, including Korea’s Personal Information Protection Act.
 
 - Privacy officer: John.k
 - Access, deletion, and other requests: [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)
@@ -18,6 +18,7 @@ The Service does not offer email-and-password registration. Accounts are created
 ### (2) User Content
 - Photos, captions, and comments posted in rooms
 - Room names, invite codes, membership lists, and join times
+- **Back up my photos** copies the user’s own posts onto this device (Android: Download/INSQUARE; iPhone: Files app). That is a download of photos already uploaded, not a new upload to the operator.
 
 Photos are saved again on upload. Hidden capture data such as location (EXIF) is not kept.
 
@@ -28,7 +29,7 @@ Photos are saved again on upload. Hidden capture data such as location (EXIF) is
 - Minimal app and phone type data for troubleshooting
 
 ### (4) Advertising
-- For free use, Google ads may appear under the room list. To show ads, an advertising identifier, network address, approximate device data, and ad taps or views may be processed. On iPhone, denying tracking still lets the app work; personalized ads may be limited.
+- For free use, a Google banner may appear under the room list. An interstitial may appear before photo backup. On Android, an ad may also appear when leaving. To show ads, an advertising identifier, network address, approximate device data, and ad taps or views may be processed. On iPhone, denying tracking still lets the app work; personalized ads may be limited.
 
 Not collected: a password created by this app, contacts, precise location, payment data, or information aimed at children under 13.
 
@@ -37,7 +38,7 @@ Not collected: a password created by this app, contacts, precise location, payme
 - Sharing photos and comments in invite-only rooms (up to four people per room)
 - Alerts the user enables (new posts, comments, joins, leaves)
 - Abuse prevention, support, reports, and legal compliance
-- Ads under the room list for free use
+- Ads under the room list, an interstitial before backup, and (Android) an ad when leaving
 
 ## 3. Processors and sharing
 The Operator does not sell photos or use them in ads. Work is entrusted as follows:
@@ -55,7 +56,7 @@ Photos are shown to members of rooms the user joins. They are not given to other
 The Operator cannot always prevent someone from seeing a shared screen, or a member from saving or capturing a photo on their own device.
 
 ## 4. Advertising
-Google ads may appear under the room list. See [Google’s Privacy Policy](https://policies.google.com/privacy). User photos and comments are not sent for ad personalization.
+A banner under the room list, an interstitial before backup, and (Android) an ad when leaving may appear. See [Google’s Privacy Policy](https://policies.google.com/privacy). User photos and comments are not sent for ad personalization.
 
 ## 5. Permissions
 The app may request:
@@ -104,4 +105,4 @@ Material changes are posted on this page with the revision date.
 - Privacy officer: John.k
 - Email: [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)
 
-This Policy takes effect on August 22, 2026.
+This Policy takes effect on August 28, 2026.

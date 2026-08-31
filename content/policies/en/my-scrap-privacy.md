@@ -8,7 +8,7 @@
 The following may be stored **only on this device**:
 - Titles, addresses, notes, folder names
 - Favorites, recents, and settings
-- Photos the user selects (to read text or save to the album)
+- Photos the user selects (to read text)
 
 No name, email, phone, location, or account is collected.
 
@@ -23,7 +23,7 @@ Scraps are not sent to the operator’s servers or to external AI. Text is read 
 
 ## 5. Permissions
 - Internet: opening saved addresses, ads
-- Camera/photos: reading text, saving to the album when the user chooses
+- Camera/photos: reading text when the user chooses
 
 ## 6. Retention
 Data stays in the app’s storage on this device. Uninstalling the app or deleting items removes it. Backup files created in the menu stay on the user’s device and are not sent to the operator’s servers.
@@ -34,4 +34,4 @@ Not limited to a specific age. No knowing collection of children’s personal in
 ## 8. Contact
 [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)
 
-This Policy takes effect on August 22, 2026.
+This Policy takes effect on July 24, 2026.

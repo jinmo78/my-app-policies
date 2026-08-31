@@ -1,6 +1,6 @@
-# Terms of Service (insquare)
+# Terms of Service (INSQUARE)
 
-These Terms govern use of the private photo app **insquare** (the "Service") operated by **John.k** (the "Operator").
+These Terms govern use of the private photo app **INSQUARE** (the "Service") operated by **John.k** (the "Operator").
 
 - Contact: [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)
 - In-app reports and feedback: Profile → **Send feedback**
@@ -9,7 +9,7 @@ These Terms govern use of the private photo app **insquare** (the "Service") ope
 These Terms set out the rights, obligations, and responsibilities of the Operator and users in connection with the Service.
 
 ## Article 2 (Definitions)
-1. "Service" means the insquare mobile application, where you create a room, invite people with a code or QR, and share this hour’s photos.
+1. "Service" means the INSQUARE mobile application, where you create a room, invite people with a code or QR, and share this hour’s photos.
 2. "Operator" means John.k, who develops and operates the Service.
 3. "User" means a person who agrees to these Terms and uses the Service.
 4. "Room" means a private space that can be joined only with an invite code or QR code. There is no public feed or search. A room follows the in-app member cap (currently four people).
@@ -22,7 +22,8 @@ The Operator provides the following. Exact limits follow in-app notices:
 3. Sharing one photo for the current hour with room members, and viewing past posts in the room
 4. Comments and push notifications
 5. Leaving a room, or the owner deleting the room
-6. Ads that may appear at the bottom of the room list for free use
+6. **Back up my photos**, which saves the user’s posts to the device
+7. Ads that may appear as a banner on the room list, as an interstitial before backup, and (Android) when leaving
 
 Features and limits may change. Material changes will be announced in the app or on this page.
 
@@ -51,7 +52,7 @@ The Operator may delete Content and suspend accounts. Suspected crimes may be re
 Liability arising from Content rests with the user who uploaded it. If a member saves, captures, or shares Content outside the Service, that member is responsible for that act.
 
 ## Article 7 (Prohibition of CSAE)
-insquare does not allow users under 13 and prohibits **child sexual abuse and exploitation (CSAE)** and **child sexual abuse material (CSAM)**.
+INSQUARE does not allow users under 13 and prohibits **child sexual abuse and exploitation (CSAE)** and **child sexual abuse material (CSAM)**.
 
 If such Content is found, it is deleted, the account is suspended, and it is reported to law enforcement in the Republic of Korea (including the National Police Agency) as required by law.
 
@@ -68,7 +69,7 @@ The Operator reviews reports and may delete Content, restrict accounts, or notif
 Users who no longer want to stay in a room may leave it. The owner may delete the room.
 
 ## Article 9 (Advertising)
-During free use, Google ads may appear at the bottom of the room list. Advertisers are responsible for their ads and linked services.
+During free use, a Google banner may appear at the bottom of the room list. An interstitial may appear before photo backup. On Android, an ad may also appear when leaving. Advertisers are responsible for their ads and linked services.
 
 ## Article 10 (Disclaimer)
 1. The Operator is not liable for interruptions caused by events reasonably beyond control, including natural disasters, network failures, or third-party infrastructure outages.
@@ -83,4 +84,4 @@ These Terms are governed by the laws of the Republic of Korea. Disputes shall be
 
 ---
 **Addendum**  
-These Terms take effect on August 22, 2026.
+These Terms take effect on August 28, 2026.

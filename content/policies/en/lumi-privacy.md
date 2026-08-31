@@ -31,7 +31,7 @@ Chat and character text or photos may go through those processes for the purpose
 Ads may appear at the bottom of the screen, in the middle of use, after watching to extend a limit, or when leaving. The app still works if tracking is denied on iPhone. See [Google’s Privacy Policy](https://policies.google.com/privacy).
 
 ## 5. Retention and deletion
-Account and Content are kept until a deletion request or service end. Some messages and characters can be deleted in the app. Email to delete an entire account.
+Account and Content are kept until a deletion request or service end. Some messages and characters can be deleted in the app. Delete an entire account in the app under **Me → Account & security → Delete account**. If that fails, email [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com).
 
 ## 6. Children
 Not directed at children under 13. No knowing collection of children’s data.
@@ -39,4 +39,4 @@ Not directed at children under 13. No knowing collection of children’s data.
 ## 7. Contact
 [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)
 
-This Policy takes effect on August 22, 2026.
+This Policy takes effect on August 28, 2026.

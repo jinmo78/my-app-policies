@@ -8,7 +8,7 @@ These Terms govern **My Scrap**, operated by **John.k**.
 Conditions for using this app.
 
 ## Article 2 (The Service)
-1. Links, notes, and folders are stored **only on this device**. There is no account or operator server.
+1. Links, notes, and folders are stored **only on this device**. There is no account or operator server. Nested folders and reordering top-level folders are supported.
 2. On Android, Share from other apps can save a link.
 3. Saved addresses can be opened in the app, and text can be read from photos on this device.
 4. From the menu, scraps can be backed up as a file on this device and restored from that file. Restore replaces current data.
@@ -28,4 +28,4 @@ Laws of the Republic of Korea. Courts with jurisdiction under the Civil Procedur
 
 ---
 **Addendum**  
-Effective August 22, 2026.
+Effective July 24, 2026.
