@@ -43,7 +43,18 @@ export default async function Home({ params }: Props) {
               <div className={styles.cardHeader}>
                 <div className={styles.icon}>{app.icon}</div>
                 <div>
-                  <h2 className={styles.appName}>{app.name}</h2>
+                  <div className={styles.nameRow}>
+                    <h2 className={styles.appName}>{app.name}</h2>
+                    <span
+                      className={
+                        app.released ? styles.tagReleased : styles.tagComing
+                      }
+                    >
+                      {app.released
+                        ? dict.home.released
+                        : dict.home.comingSoon}
+                    </span>
+                  </div>
                   <span className={styles.appSlogan}>{app.slogan}</span>
                 </div>
               </div>

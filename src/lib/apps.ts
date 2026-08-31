@@ -23,6 +23,7 @@ export interface AppConfigRaw {
   slogan: string;
   desc: string;
   features: AppFeature[];
+  released?: boolean;
   appStoreUrl?: string;
   playStoreUrl?: string;
   operator?: string;
