@@ -67,7 +67,9 @@ export function localizeApp(app: AppConfigRaw, locale: Locale): AppConfig {
 }
 
 export function getAllApps(locale: Locale = "ko"): AppConfig[] {
-  return getAllAppsRaw().map((app) => localizeApp(app, locale));
+  return getAllAppsRaw()
+    .map((app) => localizeApp(app, locale))
+    .sort((a, b) => Number(!!b.released) - Number(!!a.released));
 }
 
 export function getAppById(id: string, locale: Locale = "ko"): AppConfig | undefined {
