@@ -249,8 +249,8 @@ a {
 
 @media (max-width: 640px) {
   .policy-container {
-    padding: 1.5rem;
-    margin: 2rem auto;
+    padding: 1.25rem 1rem;
+    margin: 1.5rem auto;
   }
 }
 
@@ -379,4 +379,57 @@ a {
 .back-btn:hover {
   color: var(--text-main);
   transform: translateX(-4px);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1.15rem;
+  }
+
+  .header-container {
+    height: 3.75rem;
+  }
+
+  .footer {
+    padding: 2.25rem 0 1.5rem;
+  }
+
+  .footer-apps {
+    margin-bottom: 1.75rem;
+  }
+
+  .footer-app-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 3.25rem);
+    justify-content: center;
+    gap: 0.7rem;
+  }
+
+  .policy-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.45rem;
+  }
+
+  .prose h1 {
+    font-size: 1.65rem;
+  }
+
+  .prose h2 {
+    font-size: 1.25rem;
+    margin-top: 1.75rem;
+  }
+
+  .prose table {
+    font-size: 0.85rem;
+  }
+
+  .prose td,
+  .prose thead th {
+    padding: 0.55rem 0.65rem;
+  }
+
+  .prose {
+    overflow-x: auto;
+  }
 }

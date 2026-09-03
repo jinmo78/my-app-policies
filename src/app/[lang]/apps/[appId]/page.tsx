@@ -77,7 +77,7 @@ export default async function AppPage({ params }: Props) {
           )}
         </section>
 
-        <section style={{ marginBottom: "5rem" }}>
+        <section className={styles.featuresSection}>
           <h2 className={styles.sectionTitle}>{dict.app.featuresTitle}</h2>
           <div className={styles.features}>
             {app.features.map((feature, idx) => (

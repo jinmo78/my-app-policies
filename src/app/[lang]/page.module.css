@@ -24,6 +24,8 @@
   max-width: 600px;
   margin: 0 auto 3rem;
   line-height: 1.6;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 .grid {
@@ -31,13 +33,6 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   margin-bottom: 8rem;
-}
-
-@media (max-width: 768px) {
-  .grid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
 }
 
 .card {
@@ -140,6 +135,8 @@
   line-height: 1.6;
   margin-bottom: 2.5rem;
   flex-grow: 1;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 .cardFooter {
@@ -197,4 +194,62 @@
 .policyLink:hover {
   color: var(--text-main);
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 4rem 0 2.5rem;
+  }
+
+  .title {
+    font-size: 2.1rem;
+  }
+
+  .description {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  .card {
+    padding: 1.35rem 1.2rem;
+  }
+
+  .card:hover {
+    transform: none;
+  }
+
+  .icon {
+    font-size: 2rem;
+    width: 2.85rem;
+    height: 2.85rem;
+  }
+
+  .appName {
+    font-size: 1.25rem;
+  }
+
+  .cardHeader {
+    margin-bottom: 1rem;
+  }
+
+  .cardBody {
+    font-size: 0.95rem;
+    margin-bottom: 1.35rem;
+  }
+
+  .policies {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.65rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+  }
 }

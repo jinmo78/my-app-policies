@@ -43,11 +43,14 @@
   max-width: 700px;
   margin: 0 auto 3rem;
   line-height: 1.7;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 .downloadStore {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 
@@ -64,6 +67,7 @@
   color: var(--text-main);
   text-decoration: none;
   transition: var(--transition-smooth);
+  white-space: nowrap;
 }
 
 .storeBtn:hover {
@@ -79,17 +83,14 @@
   text-align: center;
 }
 
+.featuresSection {
+  margin-bottom: 6rem;
+}
+
 .features {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1.5rem;
-  margin-bottom: 6rem;
-}
-
-@media (max-width: 768px) {
-  .features {
-    grid-template-columns: 1fr;
-  }
 }
 
 .featureCard {
@@ -177,6 +178,7 @@
 .policyLinks {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 1.5rem;
 }
 
@@ -185,4 +187,90 @@
   font-weight: 600;
   border-radius: var(--radius-md);
   transition: var(--transition-smooth);
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 3.25rem 0 4rem;
+  }
+
+  .hero {
+    margin-bottom: 2.75rem;
+  }
+
+  .icon {
+    font-size: 3rem;
+    width: 4.25rem;
+    height: 4.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .appName {
+    font-size: 2rem;
+  }
+
+  .slogan {
+    font-size: 1.05rem;
+    word-break: keep-all;
+  }
+
+  .desc {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.75;
+    margin-bottom: 1.75rem;
+  }
+
+  .downloadStore,
+  .policyLinks {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .storeBtn,
+  .policyBtn {
+    width: 100%;
+    justify-content: center;
+    white-space: nowrap;
+  }
+
+  .sectionTitle {
+    font-size: 1.35rem;
+    margin-bottom: 1.15rem;
+  }
+
+  .featuresSection {
+    margin-bottom: 2.75rem;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
+  }
+
+  .featureCard {
+    padding: 1.2rem 1.15rem;
+  }
+
+  .supportSection {
+    margin-bottom: 2.5rem;
+  }
+
+  .supportCard {
+    padding: 1.2rem 1.15rem;
+  }
+
+  .policySection {
+    padding: 1.5rem 1.15rem;
+  }
+
+  .policySection h3 {
+    font-size: 1.25rem;
+  }
+
+  .policySection p {
+    text-align: left;
+    margin-bottom: 1.25rem;
+  }
 }
