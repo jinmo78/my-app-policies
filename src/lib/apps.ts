@@ -66,7 +66,7 @@ export function localizeApp(app: AppConfigRaw, locale: Locale): AppConfig {
   };
 }
 
-const releasedOrder = ["my-scrap", "lumi", "insquare"];
+const releasedOrder = ["lumi", "my-scrap", "insquare"];
 
 export function getAllApps(locale: Locale = "ko"): AppConfig[] {
   return getAllAppsRaw()

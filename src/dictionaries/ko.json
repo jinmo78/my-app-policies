@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "John.k - 앱 소개 및 약관",
-    "description": "개인 개발자 John.k가 만드는 앱의 소개, 개인정보처리방침, 이용약관을 한곳에서 확인하실 수 있습니다."
+    "description": "개인 개발자 John.k의 앱 소개. AI 캐릭터 대화(루미), 온디바이스 스크랩, 프라이빗 사진 공간과 약관을 확인하실 수 있습니다."
   },
   "nav": {
     "home": "Home"
@@ -13,7 +13,7 @@
   "home": {
     "titleBefore": "Meet Our",
     "titleHighlight": "Innovations",
-    "description": "개인 개발자 John.k가 만드는 앱을 소개합니다. 각 카드에서 상세 설명, 개인정보처리방침, 이용약관을 확인할 수 있습니다.",
+    "description": "개인 개발자 John.k가 만드는 앱을 소개합니다. AI 캐릭터 대화(루미), 온디바이스 스크랩, 프라이빗 사진 공간을 운영합니다. 각 카드에서 상세 설명, 개인정보처리방침, 이용약관을 확인할 수 있습니다.",
     "learnMore": "자세히 보기",
     "released": "출시됨",
     "comingSoon": "준비중",

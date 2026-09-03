@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "John.k - Apps & Policies",
-    "description": "Overviews, privacy policies, and terms for apps by individual developer John.k."
+    "description": "Apps by John.k: AI character chat (Lumi), on-device scrap, and a private photo space — plus privacy policies and terms."
   },
   "nav": {
     "home": "Home"
@@ -13,7 +13,7 @@
   "home": {
     "titleBefore": "Meet Our",
     "titleHighlight": "Innovations",
-    "description": "Apps by individual developer John.k. Open a card for details, privacy policy, and terms.",
+    "description": "Apps by individual developer John.k: AI character chat (Lumi), on-device scrap, and a private photo space. Open a card for details, privacy policy, and terms.",
     "learnMore": "Learn more",
     "released": "Released",
     "comingSoon": "Coming soon",
