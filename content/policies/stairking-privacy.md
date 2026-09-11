@@ -2,7 +2,7 @@
 
 개인 개발자 **John.k**가 계단 오르기 게임 **계단왕**(STAIR KING)을 운영합니다. 계단왕은 **개인정보를 수집하지 않습니다.** 계정·로그인·광고·분석 도구가 모두 없습니다.
 
-- 문의: [dejay_ai@proton.me](mailto:dejay_ai@proton.me)
+- 문의: [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)
 
 ## 1. 수집하는 정보
 없습니다. 회원가입과 로그인이 없으며, 개발자에게 전송되는 정보가 일절 없습니다.
@@ -43,6 +43,6 @@
 방침이 바뀌면 이 문서를 고치고 최종 수정일을 갱신합니다.
 
 ## 8. 문의
-[dejay_ai@proton.me](mailto:dejay_ai@proton.me)
+[ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)
 
 본 방침은 2026년 9월 10일부터 시행합니다.

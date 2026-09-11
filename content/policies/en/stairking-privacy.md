@@ -2,7 +2,7 @@
 
 Individual developer **John.k** operates the stair climbing game **STAIR KING**. STAIR KING **collects no personal information**. There is no account, no sign-in, no advertising, and no analytics.
 
-- Contact: [dejay_ai@proton.me](mailto:dejay_ai@proton.me)
+- Contact: [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)
 
 ## 1. Information collected
 None. There is no sign-up or sign-in, and nothing is sent to the developer.
@@ -43,6 +43,6 @@ Because no personal information is collected, nothing is collected from users un
 If the policy changes, this document is updated and the last-updated date is revised.
 
 ## 8. Contact
-[dejay_ai@proton.me](mailto:dejay_ai@proton.me)
+[ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)
 
 This Policy takes effect on September 10, 2026.

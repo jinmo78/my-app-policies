@@ -2,7 +2,7 @@
 
 본 약관은 개인 개발자 **John.k**(이하 "운영자")가 제공하는 계단 오르기 게임 **계단왕**(STAIR KING, 이하 "서비스")의 이용 조건을 정합니다.
 
-- 문의: [dejay_ai@proton.me](mailto:dejay_ai@proton.me)
+- 문의: [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)
 
 ## 제1조 (목적)
 운영자와 이용자 간의 권리·의무 및 책임 사항을 규정합니다.

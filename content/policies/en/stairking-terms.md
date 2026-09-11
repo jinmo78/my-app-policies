@@ -2,7 +2,7 @@
 
 These Terms govern the stair climbing game **STAIR KING** (the "Service"), provided by individual developer **John.k** (the "Operator").
 
-- Contact: [dejay_ai@proton.me](mailto:dejay_ai@proton.me)
+- Contact: [ilovejs97@gmail.com](mailto:ilovejs97@gmail.com)
 
 ## Article 1 (Purpose)
 These Terms set out the rights, duties, and responsibilities between the Operator and users.
