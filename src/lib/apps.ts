@@ -26,6 +26,7 @@ export interface AppConfigRaw {
   released?: boolean;
   appStoreUrl?: string;
   playStoreUrl?: string;
+  serviceUrl?: string;
   operator?: string;
   supportEmail?: string;
   ageNote?: string;
