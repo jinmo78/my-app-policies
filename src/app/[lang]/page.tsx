@@ -70,15 +70,17 @@ export default async function Home({ params }: Props) {
                 </a>
               </div>
 
-              <div className={styles.policies}>
-                <a href={`${base}/apps/${app.id}/privacy`} className={styles.policyLink}>
-                  {dict.home.privacy}
-                </a>
-                <span>&bull;</span>
-                <a href={`${base}/apps/${app.id}/terms`} className={styles.policyLink}>
-                  {dict.home.terms}
-                </a>
-              </div>
+              {app.policies !== false && (
+                <div className={styles.policies}>
+                  <a href={`${base}/apps/${app.id}/privacy`} className={styles.policyLink}>
+                    {dict.home.privacy}
+                  </a>
+                  <span>&bull;</span>
+                  <a href={`${base}/apps/${app.id}/terms`} className={styles.policyLink}>
+                    {dict.home.terms}
+                  </a>
+                </div>
+              )}
             </div>
           );
         })}

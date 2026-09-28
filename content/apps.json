@@ -206,5 +206,31 @@
         { "title": "No account, no ads", "desc": "No sign-up or sign-in, and no ad or analytics SDK. Coins are earned only by playing and stay on the device." }
       ]
     }
+  },
+  {
+    "id": "frequency",
+    "name": "그때의 주파수",
+    "released": true,
+    "icon": "🎵",
+    "slogan": "AI로 만든 노래, 목소리가 들어간 곡",
+    "serviceUrl": "https://www.youtube.com/channel/UC7LKXvrrwP4f5hp4BkxWItg",
+    "desc": "유튜브에서 AI로 만든 노래를 들을 수 있는 채널입니다.\n일부 곡에는 운영자의 목소리가 들어 있습니다.\n개인 개발자 John.k가 운영합니다.",
+    "glowClass": "app8Glow",
+    "operator": "John.k",
+    "supportEmail": "ilovejs97@gmail.com",
+    "policies": false,
+    "features": [
+      { "title": "AI 노래", "desc": "AI로 만든 노래를 들을 수 있습니다." },
+      { "title": "목소리", "desc": "일부 곡에는 운영자의 목소리가 들어 있습니다." }
+    ],
+    "en": {
+      "name": "Frequency of Then",
+      "slogan": "AI songs, including tracks with a voice",
+      "desc": "A YouTube channel where you can listen to songs made with AI.\nSome tracks include the operator’s voice.\nOperated by John.k.",
+      "features": [
+        { "title": "AI songs", "desc": "Listen to songs made with AI." },
+        { "title": "A voice in some tracks", "desc": "Some tracks include the operator’s voice." }
+      ]
+    }
   }
 ]

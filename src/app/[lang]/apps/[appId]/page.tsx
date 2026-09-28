@@ -136,6 +136,7 @@ export default async function AppPage({ params }: Props) {
           </section>
         )}
 
+        {app.policies !== false && (
         <section className={styles.policySection}>
           <h3>{dict.app.policyTitle}</h3>
           <p>{dict.app.policyDesc}</p>
@@ -155,6 +156,7 @@ export default async function AppPage({ params }: Props) {
             </a>
           </div>
         </section>
+        )}
       </div>
     </main>
   );

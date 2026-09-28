@@ -68,6 +68,7 @@
 .app5Glow { background: linear-gradient(90deg, #14b8a6, #0ea5e9); }
 .app6Glow { background: linear-gradient(90deg, #7b42f6, #c084fc); }
 .app7Glow { background: linear-gradient(90deg, #fbbf24, #1d4ed8); }
+.app8Glow { background: linear-gradient(90deg, #ff0033, #ff8a00); }
 
 .cardHeader {
   display: flex;
@@ -134,6 +135,7 @@
   font-size: 1rem;
   color: var(--text-muted);
   line-height: 1.6;
+  white-space: pre-line;
   margin-bottom: 2.5rem;
   flex-grow: 1;
   word-break: keep-all;

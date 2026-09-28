@@ -5,6 +5,7 @@ import { getAllApps } from "@/lib/apps";
 import { getDictionary } from "@/lib/dictionary";
 import { isLocale, locales, type Locale } from "@/lib/i18n";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import SiteNav from "@/components/SiteNav";
 
 type Props = {
   children: React.ReactNode;
@@ -42,16 +43,13 @@ export default async function LangLayout({ children, params }: Props) {
               <span>🚀</span> John.k
             </a>
             <div className="header-right">
-              <nav className="nav-links">
-                <a href={base} className="nav-link">
-                  {dict.nav.home}
-                </a>
-                {apps.map((app) => (
-                  <a key={app.id} href={`${base}/apps/${app.id}`} className="nav-link">
-                    {app.name}
-                  </a>
-                ))}
-              </nav>
+              <SiteNav
+                base={base}
+                homeLabel={dict.nav.home}
+                appsLabel={dict.nav.apps}
+                closeLabel={dict.nav.close}
+                apps={apps.map((app) => ({ id: app.id, name: app.name, icon: app.icon }))}
+              />
               <LanguageSwitcher lang={lang} labels={dict.lang} />
             </div>
           </div>

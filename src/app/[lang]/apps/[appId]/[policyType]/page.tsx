@@ -15,6 +15,7 @@ export async function generateStaticParams() {
   const paths = [];
   for (const lang of locales) {
     for (const app of apps) {
+      if (app.policies === false) continue;
       for (const policyType of policyTypes) {
         paths.push({ lang, appId: app.id, policyType });
       }
@@ -44,11 +45,11 @@ export default async function PolicyPage({ params }: Props) {
   if (!isLocale(langParam)) notFound();
   const lang = langParam as Locale;
   const dict = getDictionary(lang);
+  const app = getAppById(appId, lang);
+  if (app?.policies === false) notFound();
   const data = await getPolicyContent(appId, policyType, lang);
 
   if (!data) notFound();
-
-  const app = getAppById(appId, lang);
   const appName = app ? app.name : appId;
   const base = `/${lang}`;
 

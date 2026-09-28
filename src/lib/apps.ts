@@ -31,6 +31,7 @@ export interface AppConfigRaw {
   operator?: string;
   supportEmail?: string;
   ageNote?: string;
+  policies?: boolean;
   en?: Partial<AppLocaleCopy>;
 }
 
@@ -68,7 +69,7 @@ export function localizeApp(app: AppConfigRaw, locale: Locale): AppConfig {
   };
 }
 
-const releasedOrder = ["lumi", "my-scrap", "insquare"];
+const releasedOrder = ["lumi", "my-scrap", "insquare", "frequency"];
 
 export function getAllApps(locale: Locale = "ko"): AppConfig[] {
   return getAllAppsRaw()

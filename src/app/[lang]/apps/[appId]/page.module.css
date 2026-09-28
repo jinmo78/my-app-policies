@@ -43,6 +43,7 @@
   max-width: 700px;
   margin: 0 auto 3rem;
   line-height: 1.7;
+  white-space: pre-line;
   word-break: keep-all;
   overflow-wrap: break-word;
 }
