@@ -5,7 +5,9 @@
     "released": false,
     "icon": "📝",
     "slogan": "실시간으로 겨루는 우리말 퀴즈",
-    "desc": "맞춤법·어휘를 부저 퀴즈로 겨루는 게임입니다. 혼자 연습하거나, 초대 코드로 친구와 하거나, 실시간 대전에 참여할 수 있습니다. 익명으로 바로 플레이하거나 Google 로그인을 연결하면 기록을 이어갈 수 있습니다. 개인 개발자 John.k가 운영합니다.",
+    "serviceUrl": "https://woorimal.johnk.co.kr/",
+    "screenshot": "/apps/woorimal-dalin.png",
+    "desc": "맞춤법·어휘를 부저 퀴즈로 겨루는 게임입니다. 웹에서도 바로 플레이할 수 있습니다. 혼자 연습하거나, 초대 코드로 친구와 하거나, 실시간 대전에 참여할 수 있습니다. 익명으로 바로 플레이하거나 Google 로그인을 연결하면 기록을 이어갈 수 있습니다. 개인 개발자 John.k가 운영합니다.",
     "glowClass": "app1Glow",
     "operator": "John.k",
     "supportEmail": "ilovejs97@gmail.com",
@@ -18,7 +20,7 @@
     "en": {
       "name": "Korean Master",
       "slogan": "A live Korean quiz you play against others",
-      "desc": "A buzzer quiz on spelling and vocabulary. Play solo, with friends via invite code, or in live matches. Start anonymously, or link Google to keep your record. Operated by individual developer John.k.",
+      "desc": "A buzzer quiz on spelling and vocabulary. You can also play it in a web browser. Play solo, with friends via invite code, or in live matches. Start anonymously, or link Google to keep your record. Operated by individual developer John.k.",
       "ageNote": "We do not knowingly collect personal information from children under 14.",
       "features": [
         { "title": "Live buzzer quiz", "desc": "The server decides who buzzed first. Play Korean questions in a shared room." },

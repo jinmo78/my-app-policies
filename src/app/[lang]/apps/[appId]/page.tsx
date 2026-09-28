@@ -51,6 +51,20 @@ export default async function AppPage({ params }: Props) {
           <h1 className={styles.appName}>{app.name}</h1>
           <span className={styles.slogan}>{app.slogan}</span>
           <p className={styles.desc}>{app.desc}</p>
+          {app.screenshot && app.serviceUrl && (
+            <a
+              href={app.serviceUrl}
+              className={styles.previewLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={app.screenshot}
+                alt={dict.app.previewAlt.replace("{name}", app.name)}
+                className={styles.preview}
+              />
+            </a>
+          )}
           {(app.appStoreUrl || app.playStoreUrl || app.serviceUrl) && (
             <div className={styles.downloadStore}>
               {app.serviceUrl && (

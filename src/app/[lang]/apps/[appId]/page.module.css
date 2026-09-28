@@ -47,6 +47,33 @@
   overflow-wrap: break-word;
 }
 
+.desc:has(+ .previewLink) {
+  margin-bottom: 1.75rem;
+}
+
+.previewLink {
+  display: block;
+  width: fit-content;
+  margin: 0 auto 2rem;
+  border-radius: 1.75rem;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  line-height: 0;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+  transition: var(--transition-smooth);
+}
+
+.previewLink:hover {
+  border-color: var(--border-hover);
+  transform: translateY(-2px);
+}
+
+.preview {
+  width: min(280px, 72vw);
+  height: auto;
+  display: block;
+}
+
 .downloadStore {
   display: flex;
   justify-content: center;
